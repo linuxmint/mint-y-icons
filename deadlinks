@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for l in `find usr -type l -xtype l`; do
+	echo "$l -> `readlink -nq "$l"`"
+done
+
