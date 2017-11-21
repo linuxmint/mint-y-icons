@@ -33,19 +33,19 @@ To find files with spaces in their filenames (that breaks the icon cache generat
 
 	find . | egrep '. '
 
-Creating new icons
-==================
+Creating new icons for apps and categories
+==========================================
 
-Create a new SVG icon using the `Template.svg` in `/src` and assign the icon to the right context (apps, categories) in the svg code.
+Create a new SVG icon using the `apps_categories_template.svg` in `/src` and assign the icon to the right context (apps, categories) in the svg code.
 
 To create PNG icons from the SVG source file, there is a script to simplify the rendering process; to run it you will need:
  * inkscape
  * python3
 
- To render new icons from their source SVG files, run the following from within the `/src` subdirectory:
+ To render new icons from their source SVG files, run the following command from within the `/src` subdirectory:
 
 ```
-./render-bitmaps.py
+./render-apps-categories-bitmaps.py
 ```
 
- This script will look in the source directories `/src/*` and render the respective icons (provided there are changes).
+ This script will look in the source directories `/src/apps` and `/src/categories` and render the respective icons (provided there are changes).

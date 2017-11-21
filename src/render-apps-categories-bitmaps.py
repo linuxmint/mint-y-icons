@@ -25,7 +25,7 @@ import argparse
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
 MAINDIR = '../usr/share/icons/Mint-Y'
-SOURCES = ('#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'web', 'X', 'Y', 'Z')
+SOURCES = ('apps', 'categories')
 
 # the resolution that non-hi-dpi icons are rendered at (may be 90 or 96 depending on your inkscape build)
 inkscape_version = float(str(subprocess.check_output(['inkscape', '-V'])).split(' ')[1])
