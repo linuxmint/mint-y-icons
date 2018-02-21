@@ -25,7 +25,7 @@ import argparse
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
 MAINDIR = '../usr/share/icons/Mint-Y'
-SOURCES = ('apps', 'categories')
+SOURCES = ('apps', 'cats')
 
 # the resolution that non-hi-dpi icons are rendered at (may be 90 or 96 depending on your inkscape build)
 inkscape_version = float(str(subprocess.check_output(['inkscape', '-V'])).split(' ')[1])
@@ -34,7 +34,7 @@ if inkscape_version < 0.92: # inkscape version 0.92 changed the default dpi from
 else:
     DPI_1_TO_1 = 96
 # DPI multipliers to render at
-DPIS = [1] # for hidpi icons change to [1, 2] (not yet supported in Mint-Y)
+DPIS = [1, 2] # for hidpi icons change to [1, 2] (not yet supported in Mint-Y)
 
 inkscape_process = None
 
