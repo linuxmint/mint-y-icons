@@ -2,12 +2,9 @@
 
 import os
 import subprocess
+import sys
 
-SYMBOLIC_APPS_FILE = os.path.join(os.getcwd(), "symbolic-apps-links")
-SRC_DIR = os.path.join(os.getcwd(), "apps")
-APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y", "apps")
-
-def check_symbolic_apps_file():
+def check_symbolic_links_list():
     with open(SYMBOLIC_APPS_FILE, "r") as symbolic_apps_file:
         line_no = 0
         for symbolic_link_ref in symbolic_apps_file:
@@ -35,5 +32,17 @@ def delete_symbolic_links_in_apps():
 
 
 if __name__ == "__main__":
-    delete_symbolic_links_in_apps()
-    check_symbolic_apps_file()
+    if len(sys.argv) != 2:
+        print("Pass argument: 'apps' or 'categories'")
+    else:
+        if sys.argv[1] in ["apps", "categories"]:
+            SYMBOLIC_APPS_FILE = os.path.join(os.getcwd(), "symbolic-" + sys.argv[1] + "-list")
+            SRC_DIR = os.path.join(os.getcwd(), sys.argv[1])
+            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y", sys.argv[1])
+
+            print("Creating symbolic links in " + sys.argv[1] + " directories...")
+            delete_symbolic_links_in_apps()
+            check_symbolic_links_list()
+            print("Done!")
+        else:
+            print("Wrong argument! Valid arguments are: apps, categories")
