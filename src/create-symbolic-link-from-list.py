@@ -4,6 +4,8 @@ import os
 import subprocess
 import sys
 
+MINTY_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y")
+
 def check_symbolic_links_list():
     with open(SYMBOLIC_APPS_FILE, "r") as symbolic_apps_file:
         line_no = 0
@@ -25,15 +27,23 @@ def create_symbolic_link(target, symlink):
     for apps_pixel in os.listdir(APPS_DIR):
         target_path = os.path.join(APPS_DIR, apps_pixel, target).rstrip()
         symlink_path = os.path.join(APPS_DIR, apps_pixel, symlink).rstrip()
-        subprocess.Popen(['ln', '-s', '-r', '-f', target_path, symlink_path])
+        if not os.path.islink(symlink_path):
+            subprocess.call(['ln', '-s', '-r', target_path, symlink_path])
+            print(symlink_path + " created")
 
-def delete_symbolic_links_in_apps():
+def delete_symbolic_links():
     subprocess.call(['find', APPS_DIR, '-type', 'l', '-delete'])
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Pass argument: 'apps' or 'categories'")
+        print("Pass argument: ")
+        print("    apps")
+        print("    categories")
+        print("    show-broken-symbolics")
+        print("    delete-broken-symbolics")
+        print("    delete-symbolic-apps")
+        print("    delete-symbolic-categories")
     else:
         if sys.argv[1] in ["apps", "categories"]:
             SYMBOLIC_APPS_FILE = os.path.join(os.getcwd(), "symbolic-" + sys.argv[1] + "-list")
@@ -41,8 +51,23 @@ if __name__ == "__main__":
             APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y", sys.argv[1])
 
             print("Creating symbolic links in " + sys.argv[1] + " directories...")
-            delete_symbolic_links_in_apps()
             check_symbolic_links_list()
             print("Done!")
+        elif sys.argv[1] in ['delete-symbolic-apps']:
+            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y", "apps")
+            delete_symbolic_links()
+        elif sys.argv[1] in ['delete-symbolic-categories']:
+            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y", "categories")
+            delete_symbolic_links()
+        elif sys.argv[1] == 'show-broken-symbolics':
+            subprocess.call(['find', '-L', MINTY_DIR, '-type', 'l'])
+        elif sys.argv[1] == 'delete-broken-symbolics':
+            subprocess.call(['find', '-L', MINTY_DIR, '-type', 'l', '-delete'])
         else:
-            print("Wrong argument! Valid arguments are: apps, categories")
+            print("Wrong argument! Valid arguments are:")
+            print("    apps")
+            print("    categories")
+            print("    show-broken-symbolics")
+            print("    delete-broken-symbolics")
+            print("    delete-symbolic-apps")
+            print("    delete-symbolic-categories")
