@@ -28,7 +28,8 @@ MAINDIR = '../usr/share/icons/Mint-Y'
 SOURCES = ('apps', 'categories')
 
 # the resolution that non-hi-dpi icons are rendered at (may be 90 or 96 depending on your inkscape build)
-inkscape_version = float(str(subprocess.check_output(['inkscape', '-V'])).split(' ')[1])
+inkscape_version = str(subprocess.check_output(['inkscape', '-V'])).split(' ')[1].split('.')
+inkscape_version = float(inkscape_version[0] + '.' + inkscape_version[1])
 if inkscape_version < 0.92: # inkscape version 0.92 changed the default dpi from 90 to 96
     DPI_1_TO_1 = 90
 else:
