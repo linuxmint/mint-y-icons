@@ -25,11 +25,12 @@ def check_symbolic_links_list():
 
 def create_symbolic_link(target, symlink):
     for apps_pixel in os.listdir(APPS_DIR):
-        target_path = os.path.join(APPS_DIR, apps_pixel, target).rstrip()
-        symlink_path = os.path.join(APPS_DIR, apps_pixel, symlink).rstrip()
-        if not os.path.islink(symlink_path):
-            subprocess.call(['ln', '-s', '-r', target_path, symlink_path])
-            print(symlink_path + " created")
+        if apps_pixel != "symbolic":
+            target_path = os.path.join(APPS_DIR, apps_pixel, target).rstrip()
+            symlink_path = os.path.join(APPS_DIR, apps_pixel, symlink).rstrip()
+            if not os.path.islink(symlink_path):
+                subprocess.call(['ln', '-s', '-r', target_path, symlink_path])
+                print(symlink_path + " created")
 
 def delete_symbolic_links():
     subprocess.call(['find', APPS_DIR, '-type', 'l', '-delete'])
