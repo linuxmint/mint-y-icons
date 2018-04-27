@@ -28,9 +28,9 @@
      inkscape:window-height="720"
      id="namedview12"
      showgrid="true"
-     inkscape:zoom="20.85965"
-     inkscape:cx="16.347772"
-     inkscape:cy="6.9209786"
+     inkscape:zoom="16"
+     inkscape:cx="4.7341321"
+     inkscape:cy="5.1678988"
      inkscape:window-x="285"
      inkscape:window-y="26"
      inkscape:window-maximized="0"
@@ -67,35 +67,37 @@
      transform="translate(-261.00018,-29)">
     <path
        inkscape:connector-curvature="0"
-       d="m 268.00018,30.96875 -1.40625,1.375 3.65625,3.65625 -8.25,-0.0313 v 2 l 8.25,0.03125 -3.65625,3.625 1.40625,1.375 6,-6.03125 -6,-6 z"
+       d="m 269.00018,29.9688 -1.40625,1.375 3.65625,3.65625 -8.25,-0.0313 v 2 l 8.25,0.03125 -3.65625,3.625 1.40625,1.375 6,-6.03125 -6,-6 z"
        id="path5849"
        style="fill:#bebebe;fill-opacity:1"
        sodipodi:nodetypes="ccccccccccc" />
     <g
-       id="g838"
-       transform="translate(-1.0000031,-8)">
+       id="g834">
       <rect
+         transform="rotate(90)"
          id="rect20747"
-         x="276.00018"
-         y="40"
+         x="43"
+         y="-275.00018"
          width="2"
          height="2"
          rx="0.38462001"
          ry="0.37878999"
          style="color:#000000;fill:#bebebe;enable-background:new" />
       <rect
+         transform="rotate(90)"
          id="rect20749"
-         x="276.00018"
-         y="44.02002"
+         x="43"
+         y="-270.00018"
          width="2"
          height="2"
          rx="0.38462001"
          ry="0.37878999"
          style="color:#000000;fill:#bebebe;enable-background:new" />
       <rect
+         transform="rotate(90)"
          id="rect20751"
-         x="276.00018"
-         y="48"
+         x="43"
+         y="-265.00018"
          width="2"
          height="2"
          rx="0.38462001"

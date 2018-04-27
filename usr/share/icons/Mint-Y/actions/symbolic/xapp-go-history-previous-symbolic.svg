@@ -24,16 +24,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="993"
-     inkscape:window-height="720"
+     inkscape:window-width="1280"
+     inkscape:window-height="746"
      id="namedview12"
      showgrid="true"
-     inkscape:zoom="20.85965"
-     inkscape:cx="1.8072488"
-     inkscape:cy="6.9190294"
+     inkscape:zoom="22.627417"
+     inkscape:cx="5.0235615"
+     inkscape:cy="5.7755309"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer12">
     <inkscape:grid
        type="xygrid"
@@ -67,35 +67,38 @@
      transform="translate(-261.00018,-29)">
     <path
        inkscape:connector-curvature="0"
-       d="m 270.00018,31.00005 1.40625,1.375 -3.65625,3.65625 8.25,-0.0313 v 2 l -8.25,0.03125 3.65625,3.625 -1.40625,1.375 -6,-6.03125 6,-6 z"
+       d="m 269.00018,29.9688 1.40625,1.375 -3.65625,3.65625 8.25,-0.0313 v 2 l -8.25,0.03125 3.65625,3.625 -1.40625,1.375 -6,-6.03125 6,-6 z"
        id="path5849"
        style="fill:#bebebe;fill-opacity:1"
        sodipodi:nodetypes="ccccccccccc" />
     <g
-       id="g849"
-       transform="translate(4.9999969,-1)">
+       transform="translate(-3.1054687e-6)"
+       id="g834">
       <rect
+         transform="rotate(90)"
          id="rect20747"
-         x="256.00018"
-         y="33"
+         x="43"
+         y="-275.00018"
          width="2"
          height="2"
          rx="0.38462001"
          ry="0.37878999"
          style="color:#000000;fill:#bebebe;enable-background:new" />
       <rect
+         transform="rotate(90)"
          id="rect20749"
-         x="256.00018"
-         y="37.02002"
+         x="43"
+         y="-270.00018"
          width="2"
          height="2"
          rx="0.38462001"
          ry="0.37878999"
          style="color:#000000;fill:#bebebe;enable-background:new" />
       <rect
+         transform="rotate(90)"
          id="rect20751"
-         x="256.00018"
-         y="41"
+         x="43"
+         y="-265.00018"
          width="2"
          height="2"
          rx="0.38462001"
