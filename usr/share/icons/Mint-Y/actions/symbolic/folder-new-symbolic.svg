@@ -27,8 +27,8 @@
      borderlayer="false"
      borderopacity="1"
      inkscape:current-layer="layer12"
-     inkscape:cx="-10.353607"
-     inkscape:cy="8.7948644"
+     inkscape:cx="3.4791313"
+     inkscape:cy="1.0761576"
      gridtolerance="10"
      inkscape:guide-bbox="true"
      guidetolerance="10"
@@ -41,7 +41,7 @@
      inkscape:pageshadow="2"
      showborder="true"
      showgrid="false"
-     showguides="true"
+     showguides="false"
      inkscape:showpageshadow="false"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-edge-midpoints="false"
@@ -57,12 +57,12 @@
      inkscape:snap-page="false"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-to-guides="true"
-     inkscape:window-height="699"
+     inkscape:window-height="1026"
      inkscape:window-maximized="1"
-     inkscape:window-width="1366"
+     inkscape:window-width="1920"
      inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:zoom="11.313708">
+     inkscape:window-y="0"
+     inkscape:zoom="15.999999">
     <inkscape:grid
        color="#000000"
        dotted="false"
@@ -169,26 +169,15 @@
      inkscape:label="actions"
      style="display:inline"
      transform="translate(-285.0002,-200.99001)">
-    <g
-       id="folder-new_16"
-       transform="translate(247.0002,-41.372159)"
-       inkscape:label="#g7963">
-      <g
-         transform="translate(38,242.36217)"
-         id="g4866"
-         style="display:inline">
-        <g
-           style="display:inline"
-           inkscape:label="Calque 1"
-           id="layer1-02">
-          <path
-             style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none"
-             d="M 3,1 C 2.446,1 2,1.446 2,2 L 2,3 14,3 C 14,2.446 13.554,2 13,2 L 7,2 C 7,1.446 6.554,1 6,1 Z M 2.5,4 C 1.669,4 1,4.669 1,5.5 l 0,8 C 1,14.331 1.669,15 2.5,15 l 11,0 c 0.831,0 1.5,-0.669 1.5,-1.5 l 0,-8 C 15,4.669 14.331,4 13.5,4 Z m 4.5,2 2,0 0,2 2,0 0,2 -2,0 0,2 -2,0 0,-2 -2,0 0,-2 2,0 z"
-             id="path3046"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="ssccscsssssssssssccccccccccccc" />
-        </g>
-      </g>
-    </g>
+    <path
+       style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none"
+       d="M 3 1.0097656 C 2.446 1.0097656 2 1.4557656 2 2.0097656 L 2 3.0097656 L 14 3.0097656 C 14 2.4557656 13.554 2.0097656 13 2.0097656 L 7 2.0097656 C 7 1.4557656 6.554 1.0097656 6 1.0097656 L 3 1.0097656 z M 2.5 4.0097656 C 1.669 4.0097656 1 4.6787656 1 5.5097656 L 1 14.509766 C 1 15.340766 1.669 16.009766 2.5 16.009766 L 13.5 16.009766 C 14.331 16.009766 15 15.340766 15 14.509766 L 15 5.5097656 C 15 4.6787656 14.331 4.0097656 13.5 4.0097656 L 2.5 4.0097656 z M 3.5 6.0097656 C 5.86683 6.0167656 10.231666 5.9861656 12.597656 6.0097656 C 13.094886 6.1156056 12.994906 6.68505 13.003906 7.0625 L 13.003906 13.501953 C 13.006896 13.996953 12.467606 14.034053 12.097656 14.001953 C 9.8660263 13.994953 5.6389731 14.025553 3.4082031 14.001953 C 2.9109531 13.896113 3.0109531 13.316913 3.0019531 12.939453 L 3.0019531 6.5 C 2.9959531 6.23124 3.23115 6.0037656 3.5 6.0097656 z "
+       transform="translate(285.0002,200.99001)"
+       id="path3046" />
+    <path
+       style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none;enable-background:new"
+       d="m 292.0002,208 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0 0,-2 -2,0 0,-2 -2,0 z"
+       id="path3046-8-2"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
