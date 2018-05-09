@@ -36,12 +36,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="747"
+     inkscape:window-height="746"
      id="namedview6"
      showgrid="true"
      inkscape:zoom="14.75"
-     inkscape:cx="-4.0677966"
-     inkscape:cy="8"
+     inkscape:cx="5.5214385"
+     inkscape:cy="12.747839"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -51,28 +51,20 @@
        id="grid812" />
   </sodipodi:namedview>
   <g
-     id="g3854">
+     id="g837">
     <path
        sodipodi:nodetypes="cccccccccccccccccccccccccc"
        inkscape:connector-curvature="0"
        style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
        d="M 7,3 V 5.6061995 L 4.2617915,7.675809 C 4.102729,7.772119 3.9984612,7.83778 4,8 V 9 H 3 v 3 H 6 V 9 H 5 V 8.5 L 7,6.75 V 13 H 5 L 8.0000015,16 11,13 H 9 V 5.35 l 2,1.4 V 9 h 1 V 6.5 C 12.0025,6.347082 11.973695,6.154415 11.830592,6.056452 L 9,4 V 3 Z"
        id="path4707-3" />
-    <ellipse
-       ry="1.2254595"
-       rx="1.2972333"
-       cy="3.2254596"
-       cx="2.7027667"
-       transform="matrix(1.5417427,0,0,1.4280358,3.8330293,-2.8560717)"
+    <path
        id="path3792"
-       style="fill:#bebebe;fill-opacity:1;stroke:none" />
-    <ellipse
-       ry="1.2254595"
-       rx="1.2972333"
-       cy="3.2254596"
-       cx="2.7027667"
-       style="fill:#bebebe;fill-opacity:1;stroke:none"
+       d="M 10,1.75 A 2,1.75 0 0 1 8,3.5 2,1.75 0 0 1 6,1.75 2,1.75 0 0 1 8,0 2,1.75 0 0 1 10,1.75 Z"
+       style="fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1.48380041" />
+    <path
        id="path3813"
-       transform="matrix(1.156307,0,0,1.2240307,8.374772,5.5519385)" />
+       d="M 13,9.5 A 1.5,1.5 0 0 1 11.5,11 1.5,1.5 0 0 1 10,9.5 1.5,1.5 0 0 1 11.5,8 1.5,1.5 0 0 1 13,9.5 Z"
+       style="fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1.18968701" />
   </g>
 </svg>
