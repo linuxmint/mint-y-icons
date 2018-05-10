@@ -16,7 +16,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
    version="1.0"
-   sodipodi:docname="folder-symbolic.svg"
+   sodipodi:docname="folder-new-symbolic.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/matt/.icons/Sirocco/scalable/mimetypes/text-plain.png"
    inkscape:export-xdpi="90"
@@ -30,9 +30,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="11.990281"
-     inkscape:cy="1.8936166"
+     inkscape:zoom="22.627417"
+     inkscape:cx="-5.2995424"
+     inkscape:cy="9.0362272"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="128px"
@@ -116,6 +116,10 @@
      inkscape:groupmode="layer">
     <path
        style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none"
+       d="M 1.5 4 C 0.669 4 0 4.6192276 0 5.3886719 L 0 12.611328 C 0 13.380773 0.669 14 1.5 14 L 14.5 14 C 15.331 14 16 13.380773 16 12.611328 L 16 5.3886719 C 16 4.6192276 15.331 4 14.5 4 L 1.5 4 z M 7 6 L 9 6 L 9 8 L 11 8 L 11 10 L 9 10 L 9 12 L 7 12 L 7 10 L 5 10 L 5 8 L 7 8 L 7 6 z "
+       id="path3040" />
+    <path
+       style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none"
        d="M 3,1 C 2.446,1 2,1.446 2,2 1.446,2 1,2.446 1,3 L 2,3 15,3 C 15,2.446 14.554,2 14,2 L 7,2 C 7,1.446 6.554,1 6,1 Z"
        id="path3028"
        inkscape:connector-curvature="0"
@@ -160,16 +164,5 @@
        inkscape:label="actions"
        style="display:inline"
        transform="translate(-840.0002,470.00693)" />
-    <path
-       style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none;enable-background:new"
-       d="M 1.5,4 C 0.669,4 0,4.669 0,5.5 l 0,9 C 0,15.331 0.669,16 1.5,16 l 13.000172,0 c 0.831,0 1.5,-0.669 1.5,-1.5 l 0,-9 c 0,-0.831 -0.669,-1.5 -1.5,-1.5 z m 1,2 c 2.36683,0.007 8.731838,-0.0236 11.097828,0 0.49723,0.10584 0.39725,0.6752844 0.40625,1.0527344 l 0,6.4394526 c 0.003,0.495 -0.5363,0.5321 -0.90625,0.5 -2.23163,-0.007 -8.4588549,0.0236 -10.6896249,0 -0.49725,-0.10584 -0.39725,-0.68504 -0.40625,-1.0625 l 0,-6.4394526 C 1.9959531,6.2214744 2.23115,5.994 2.5,6 Z"
-       id="path3046"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssssssssccccccccc" />
-    <path
-       style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none;enable-background:new"
-       d="m 7,7.0002244 0,2 -2,0 0,1.9999996 2,0 0,2 2,0 0,-2 2,0 0,-1.9999996 -2,0 0,-2 -2,0 z"
-       id="path3046-8-2"
-       inkscape:connector-curvature="0" />
   </g>
 </svg>
