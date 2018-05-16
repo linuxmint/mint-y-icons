@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   height="24.101"
+   version="1"
+   viewBox="0 0 24.176655 24.100876"
+   width="24.177"
+   id="svg89">
+  <metadata
+     id="metadata93">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title2">
+        elementary Icon Template
+    </title>
+  <defs
+     id="defs69">
+    <linearGradient
+       id="g">
+      <stop
+         offset="0"
+         stop-color="#997543"
+         id="stop4" />
+      <stop
+         offset=".239"
+         stop-color="#715d43"
+         id="stop6" />
+      <stop
+         offset=".276"
+         stop-color="#7b6241"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="#604c31"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="e">
+      <stop
+         offset="0"
+         stop-color="#fff"
+         id="stop13" />
+      <stop
+         offset=".009"
+         stop-color="#fff"
+         stop-opacity=".235"
+         id="stop15" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         stop-opacity=".157"
+         id="stop17" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         stop-opacity=".392"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       id="d">
+      <stop
+         offset="0"
+         stop-color="#fff"
+         id="stop27" />
+      <stop
+         offset=".302"
+         stop-color="#fff"
+         id="stop29" />
+      <stop
+         offset=".344"
+         stop-color="#fff"
+         stop-opacity=".643"
+         id="stop31" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         stop-opacity=".391"
+         id="stop33" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.9899,0,0,0.6901,-11.54,-3.182)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#d"
+       id="l"
+       x1="24.537"
+       x2="24.537"
+       y1="21.915"
+       y2="8.347" />
+    <linearGradient
+       gradientTransform="matrix(0.72973,0,0,0.32432,-1.337,6.716)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#e"
+       id="m"
+       x1="24"
+       x2="24"
+       y1="7.042"
+       y2="40.958" />
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#g"
+       id="o"
+       x1="53"
+       x2="53"
+       y1="189"
+       y2="208"
+       gradientTransform="translate(-39.823,-186)" />
+  </defs>
+  <path
+     id="path77"
+     style="display:block;overflow:visible;fill:#cead6d;marker:none;fill-opacity:1"
+     overflow="visible"
+     display="block"
+     d="m 5.075,3.617 13.864,0 c 1.218,0 1.766,-0.199 2.116,0.694 l 1.623,4.29 0,12.08 c 0,1.079 0.073,0.914 -1.145,0.914 l -18.712,0 c -1.218,0 -1.145,0.165 -1.145,-0.914 l 0,-12.08 1.623,-4.29 C 3.639,3.436 3.857,3.617 5.075,3.617 Z" />
+  <path
+     id="path79"
+     style="overflow:visible;opacity:0.3;fill:url(#l);marker:none"
+     overflow="visible"
+     d="m 11.527,3.598 1.34,0.07 0.33,5.332 0,2.07 c -0.39,0 -0.088,-0.602 -0.477,-0.602 -0.4,0 -0.137,0.62 -0.536,0.62 -0.32,0 -0.036,-0.554 -0.357,-0.554 -0.21,0 -0.42,0.466 -0.63,0.466 0,0 -0.09,-0.325 0,-2.07 z" />
+  <path
+     style="opacity:0.3;fill:none;stroke:url(#m);stroke-linecap:round;stroke-linejoin:round"
+     id="path81"
+     d="m 21.677,20.5 -19,0 0,-12 19,0 z" />
+  <path
+     id="path85"
+     style="display:block;overflow:visible;opacity:0.5;fill:none;stroke:url(#o);stroke-width:0.99400002;stroke-linecap:round;marker:none"
+     overflow="visible"
+     display="block"
+     d="m 5.075,3.516 13.864,0 c 1.218,0 1.766,-0.199 2.116,0.694 l 1.623,4.29 0,12.08 c 0,1.079 0.073,0.914 -1.145,0.914 l -18.712,0 c -1.218,0 -1.145,0.165 -1.145,-0.913 L 1.676,8.5 3.299,4.21 C 3.639,3.335 3.857,3.516 5.075,3.516 Z" />
+</svg>

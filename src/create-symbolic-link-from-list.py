@@ -41,12 +41,14 @@ if __name__ == "__main__":
         print("Pass argument: ")
         print("    apps")
         print("    categories")
+        print("    mimetypes")
+        print(" ")
         print("    show-broken-symbolics")
         print("    delete-broken-symbolics")
         print("    delete-symbolic-apps")
         print("    delete-symbolic-categories")
     else:
-        if sys.argv[1] in ["apps", "categories"]:
+        if sys.argv[1] in ["apps", "categories", "mimetypes"]:
             SYMBOLIC_APPS_FILE = os.path.join(os.getcwd(), "symbolic-" + sys.argv[1] + "-list")
             SRC_DIR = os.path.join(os.getcwd(), sys.argv[1])
             APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y", sys.argv[1])
@@ -68,6 +70,8 @@ if __name__ == "__main__":
             print("Wrong argument! Valid arguments are:")
             print("    apps")
             print("    categories")
+            print("    mimetypes")
+            print(" ")
             print("    show-broken-symbolics")
             print("    delete-broken-symbolics")
             print("    delete-symbolic-apps")

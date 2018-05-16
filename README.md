@@ -2,14 +2,20 @@
 Credits
 =======
 
-The application and category icons originate from the Moka icon theme:
-	* Link: https://github.com/moka-project/moka-icon-theme
-	* Author: Sam Hewitt <hewittsamuel@gmail.com>
-	* License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+The application and category icons originate from the Moka icon theme: <br>
+	&emsp;&emsp; Link: https://github.com/moka-project/moka-icon-theme <br>
+	&emsp;&emsp; Author: Sam Hewitt <hewittsamuel@gmail.com> <br>
+	&emsp;&emsp; License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
 
-The folder icons originate from the Arc icon theme:
-	* Link: https://github.com/horst3180/arc-icon-theme
-	* Author: horst3180 http://horst3180.deviantart.com
+The folder icons originate from the Arc icon theme: <br>
+	&emsp;&emsp; Link: https://github.com/horst3180/arc-icon-theme <br>
+	&emsp;&emsp; Author: horst3180 (http://horst3180.deviantart.com) <br>
+	&emsp;&emsp; License: GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)
+
+The mimetype icons originate from the Elementary icon theme: <br>
+	&emsp;&emsp; Link: https://github.com/elementary/icons <br>
+	&emsp;&emsp; Author: Members of the Elementary OS team (https://github.com/orgs/elementary/people) <br>
+	&emsp;&emsp; License: GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)
 
 License
 =======
