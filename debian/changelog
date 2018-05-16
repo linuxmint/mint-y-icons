@@ -1,3 +1,15 @@
+mint-y-icons (1.1.7) tara; urgency=medium
+
+  * Fix import-from-other-theme script
+  * Import devices icons from Arc
+  * Import some Paper action icons (#146)
+  * Update README.md
+  * Import places trash icons from Arc
+  * Devices: Give video-display a more neutral color
+  * Places: system-file-manager link to folder
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 16 May 2018 18:39:53 +0100
+
 mint-y-icons (1.1.6) tara; urgency=medium
 
   [ JosephMcc ]

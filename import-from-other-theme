@@ -11,7 +11,7 @@ if __name__ == '__main__':
             sys.exit()
 
         sizes = ["16", "22", "24", "32", "48", "64", "96", "256"]
-        types = ["apps"]
+        types = ["apps", "actions", "places"]
 
         if icontype not in types:
             print ("Unknown icon type: %s" % icontype)
@@ -24,21 +24,19 @@ if __name__ == '__main__':
 
 
         for size in sizes:
-            print("")
-            possible_paths = ["{type}/{size}", "{size}/{type}", "{type}/{size}x{size}", "{size}x{size}/{type}"]
-            for possible_path in possible_paths:
-                possible_path = possible_path.format(type=icontype, size=size)
-                path = os.path.join(foreignpath, possible_path, iconname)
-                if os.path.exists(path):
-                    local_path = "%s/%s/%s/%s" % (local_theme, icontype, size, iconname)
-                    if os.path.exists(local_path):
-                        print ("rm %s" % local_path)
-                        os.system ("rm %s" % local_path)
-                    print ("cp %s %s" % (path, local_path))
-                    os.system ("cp %s %s" % (path, local_path))
+            for scale in ["", "@2x"]:
+                print("")
+                possible_paths = ["{type}/{size}{scale}", "{size}{scale}/{type}", "{type}/{size}x{size}{scale}", "{size}x{size}{scale}/{type}"]
+                for possible_path in possible_paths:
+                    possible_path = possible_path.format(type=icontype, size=size, scale=scale)
+                    path = os.path.join(foreignpath, possible_path, iconname)
+                    if os.path.exists(path):
+                        local_path = "%s/%s/%s%s/%s" % (local_theme, icontype, size, scale, iconname)
+                        print ("cp %s %s" % (path, local_path))
+                        os.system ("cp %s %s" % (path, local_path))
 
         print("")
-        
+
     else:
         print ("")
         print("Usage: %s icon-type icon-name foreign-path" % sys.argv[0])
