@@ -13,6 +13,17 @@
   <defs
      id="defs4334">
     <linearGradient
+       id="linearGradient4155">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.31764707"
+         offset="0"
+         id="stop4157" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.23921569"
+         offset="1"
+         id="stop4159" />
+    </linearGradient>
+    <linearGradient
        gradientTransform="matrix(0.99215968,0,0,-0.9932415,0.25417006,63.794031)"
        gradientUnits="userSpaceOnUse"
        xlink:href="#linearGradient4213-9"
@@ -32,6 +43,14 @@
          style="stop-color:#000000;stop-opacity:0"
          id="stop4217-1" />
     </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient4155"
+       id="linearGradient4161"
+       x1="28"
+       y1="57"
+       x2="28"
+       y2="-1"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata4337">
@@ -46,23 +65,18 @@
     </rdf:RDF>
   </metadata>
   <rect
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
-     id="rect5505-21-3-8-5-2-9"
-     y="4.5"
-     x="4.5"
-     ry="3"
-     rx="3"
-     height="55"
-     width="55" />
-  <rect
-     width="55"
-     height="55"
-     rx="3"
-     ry="3"
-     x="4.5"
-     y="4.5"
-     id="rect5505-21-9"
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.3;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+     style="opacity:1;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect4153"
+     width="54"
+     height="54"
+     x="5"
+     y="5"
+     rx="2.5"
+     ry="2.5" />
+  <path
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;stroke:url(#linearGradient4161);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+     d="m 7.5,4.5 49,0 c 1.662,0 3,1.338 3,3 l 0,49 c 0,1.662 -1.338,3 -3,3 l -49,0 c -1.662,0 -3,-1.338 -3,-3 l 0,-49 c 0,-1.662 1.338,-3 3,-3 z"
+     id="rect5505-21-9" />
   <path
      id="path4690"
      d="m 29.571429,15 c -0.43706,0 -0.801276,1.688081 -1.015068,4.100586 a 13.357143,13.357143 0 0 0 -3.227818,1.356585 c -1.864593,-1.56272 -3.321111,-2.506037 -3.630998,-2.19615 l -3.436524,3.436524 c -0.309887,0.309887 0.63343,1.766405 2.19615,3.630998 a 13.357143,13.357143 0 0 0 -1.344727,3.227818 C 16.693181,28.769948 15,29.133637 15,29.571429 l 0,4.857142 c 0,0.437059 1.688081,0.801276 4.100586,1.015068 a 13.357143,13.357143 0 0 0 1.351841,3.234932 c -1.559167,1.861254 -2.50092,3.31437 -2.191406,3.623884 l 3.436524,3.436524 c 0.309221,0.309221 1.760509,-0.630281 3.619141,-2.186663 a 13.357143,13.357143 0 0 0 3.239675,1.335239 C 28.769948,47.306819 29.133637,49 29.571429,49 l 4.857142,0 c 0.43706,0 0.801276,-1.688081 1.015068,-4.100586 a 13.357143,13.357143 0 0 0 3.227818,-1.356585 c 1.864593,1.56272 3.321111,2.506037 3.630998,2.19615 l 3.436524,-3.436524 c 0.309887,-0.309887 -0.63343,-1.766405 -2.19615,-3.630998 a 13.357143,13.357143 0 0 0 1.344726,-3.227818 C 47.306819,35.230052 49,34.866363 49,34.428571 l 0,-4.857142 c 0,-0.43706 -1.688081,-0.801276 -4.100586,-1.015068 a 13.357143,13.357143 0 0 0 -1.351841,-3.234932 c 1.559167,-1.861254 2.50092,-3.31437 2.191406,-3.623884 l -3.436524,-3.436524 c -0.309221,-0.309221 -1.760509,0.630281 -3.619141,2.186663 a 13.357143,13.357143 0 0 0 -3.239675,-1.33524 C 35.230052,16.693181 34.866363,15 34.428571,15 l -4.857142,0 z M 32,25.928571 A 6.0714286,6.0714286 0 0 1 38.071429,32 6.0714286,6.0714286 0 0 1 32,38.071429 6.0714286,6.0714286 0 0 1 25.928571,32 6.0714286,6.0714286 0 0 1 32,25.928571 Z"

@@ -13,26 +13,6 @@
   <defs
      id="defs3184">
     <linearGradient
-       gradientTransform="matrix(0.53064102,0,0,0.58970216,39.269585,-1.7919079)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3104-5"
-       id="linearGradient3124"
-       y2="2.9062471"
-       x2="-51.786404"
-       y1="50.786446"
-       x1="-51.786404" />
-    <linearGradient
-       id="linearGradient3104-5">
-      <stop
-         offset="0"
-         style="stop-color:#a0a0a0;stop-opacity:1"
-         id="stop3106-6" />
-      <stop
-         offset="1"
-         style="stop-color:#bebebe;stop-opacity:1"
-         id="stop3108-9" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient3104">
       <stop
          offset="0"
@@ -101,6 +81,26 @@
        x2="25"
        y1="47.935162"
        x1="25" />
+    <linearGradient
+       gradientTransform="matrix(0.53064141,0,0,0.58970049,39.26963,-1.7919)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3104-6"
+       id="linearGradient3148"
+       x1="-51.786404"
+       x2="-51.786404"
+       y1="50.786446"
+       y2="2.9062471" />
+    <linearGradient
+       id="linearGradient3104-6">
+      <stop
+         id="stop3106-3"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:0.31782946" />
+      <stop
+         id="stop3108-9-9"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0.24031007" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata3187">
@@ -115,9 +115,13 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="m 4.499961,0.49996093 c 5.270482,0 23.000037,0.00185 23.000037,0.00185 l 2.8e-5,28.99822807 c 0,0 -15.333376,0 -23.000065,0 0,-9.666692 0,-19.333383 0,-29.00007387 z"
-     id="path4160-3"
-     style="display:inline;fill:#fafafa;fill-opacity:1;stroke:url(#linearGradient3124);stroke-width:0.99992186;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     style="display:inline;fill:#fafafa;fill-opacity:1;stroke:none"
+     id="path4160-3-8"
+     d="M 5.000027,0.9982079 C 10.041343,0.9982079 27,0.9999979 27,0.9999979 l 3e-5,27.9982101 -22.000003,0 z" />
+  <path
+     style="display:inline;fill:none;stroke:url(#linearGradient3148);stroke-width:0.9999218;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path4160-6-1"
+     d="m 4.499988,0.4981479 c 5.27048,0 23.000052,0.002 23.000052,0.002 l 3e-5,28.9981201 -23.000082,0 0,-28.9999601 z" />
   <path
      d="m 11.000125,5.5050057 1.343625,0 z m 1.687375,0 2.1875,0 z m 2.53125,0 1.9375,0 z m 2.25,0 0.84375,0 z m 1.1875,0 1.875,0 z m 2.25,0 3.09375,0 z m -9.906125,2 2.656125,0 z m 3.062375,0 1.75,0 z m 2.0625,0 0.875,0 z m 1.21875,0 1.59375,0 z m 1.9375,0 1.625,0 z m 1.9375,0 2.59375,0 z m -10.218625,1.9949953 3.281125,0 z m 3.624875,0 4.625,0 z m 4.9375,0 1.84375,0 z M 11.000125,11.5 l 1.59375,0 z m 1.093625,0 5.90625,0 z m -1.093625,3.037243 2.093625,0 z m 2.406125,0 5.0625,0 z m 5.375,0 2.46875,0 z m 2.78125,0 2.3125,0 z M 11.000125,16.5 l 1.343625,0 z m 1.687375,0 2.15625,0 z m 2.53125,0 1.9375,0 z m 2.25,0 0.84375,0 z m 1.1875,0 1.875,0 z m 2.25,0 3.09375,0 z m -9.906125,2.075342 3.281125,0 z m 3.624875,0 4.625,0 z m 4.9375,0 1.84375,0 z M 11.000125,21.5 l 2.093625,0 z m 2.406125,0 5.0625,0 z m 5.375,0 2.46875,0 z m -7.781125,2 2.874875,0 z m 3.218625,0 1.21875,0 z m 1.53125,0 2.78125,0 z m 3.09375,0 4.09375,0 z m -7.843625,2 2.874875,0 z m 3.218625,0 1.75,0 z m 2.0625,0 2.75,0 z m 3.0625,0 2.96875,0 z"
      id="path2609"

@@ -5,34 +5,12 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="24"
    height="24"
    id="svg3828">
   <defs
-     id="defs3830">
-    <linearGradient
-       x1="-51.786404"
-       y1="50.786446"
-       x2="-51.786404"
-       y2="2.9062471"
-       id="linearGradient3124"
-       xlink:href="#linearGradient3104-5"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.39221364,0,0,0.44736025,29.199296,-1.2387029)" />
-    <linearGradient
-       id="linearGradient3104-5">
-      <stop
-         id="stop3106-6"
-         style="stop-color:#a0a0a0;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop3108-9"
-         style="stop-color:#bebebe;stop-opacity:1"
-         offset="1" />
-    </linearGradient>
-  </defs>
+     id="defs3830" />
   <metadata
      id="metadata3833">
     <rdf:RDF>
@@ -46,9 +24,13 @@
     </rdf:RDF>
   </metadata>
   <path
-     style="display:inline;fill:#fafafa;fill-opacity:1;stroke:url(#linearGradient3124);stroke-width:0.99992186;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="path4160-3"
-     d="m 3.4999601,0.4999551 c 3.8955809,0 17.0000589,0.00142 17.0000589,0.00142 l 2.1e-5,21.9986539 c 0,0 -11.3333862,0 -17.0000799,0 0,-7.333352 0,-14.666703 0,-22.0000553 z" />
+     style="display:inline;fill:#fafafa;fill-opacity:1;stroke:none"
+     id="path4160-3-2"
+     d="M 4,2 C 7.6664118,2 19.99998,2.0013 19.99998,2.0013 L 20,22 C 20,22 9.3333337,22 4,22 4,15.33334 4,8.6666817 4,2.0000212 Z" />
+  <path
+     style="display:inline;opacity:0.3;fill:none;stroke:#000000;stroke-width:0.99992186;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path4160-3-1"
+     d="m 3.4999601,1.4999569 c 3.8955809,0 17.0000589,0.00136 17.0000589,0.00136 l 2.1e-5,20.9987161 c 0,0 -11.3333862,0 -17.0000799,0 0,-7.000018 0,-14.000035 0,-21.0000538 z" />
   <g
      id="g4219">
     <path
