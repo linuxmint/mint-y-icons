@@ -40,6 +40,7 @@ text-html.png <- www.png
 text-x-authors.png <- authors.png
 text-x-authors.png <- text-x-credits.png
 text-x-changelog.png <- text-x-patch.png
+text-x-c++src.png <- text-x-c++.png
 text-x-generic.png <- application-x-gnome-theme-package.png
 text-x-generic.png <- application-x-theme.png
 text-x-generic.png <- document.png
@@ -60,9 +61,7 @@ text-x-sass.png <- text-x-scss.png
 text-x-script.png <- application-x-m4.png
 text-x-script.png <- application-x-shellscript.png
 text-x-script.png <- shellscript.png
-text-x-script.png <- text-x-c++.png
 text-x-script.png <- text-x-csharp.png
-text-x-script.png <- text-x-c++src.png
 text-x-script.png <- text-x-source.png
 text-x-ssa.png <- application-x-subrip.png
 video-x-generic.png <- application-vnd.rn-realmedia.png
