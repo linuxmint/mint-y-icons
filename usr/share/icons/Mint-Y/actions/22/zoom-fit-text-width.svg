@@ -30,9 +30,7 @@
   </style>
   </defs>
   <path
-     style="fill:currentColor"
-     class="ColorScheme-Text"
-     d="M 3 2 C 2.446 2 2 2.446 2 3 L 2 13 C 2 13.554 2.446 14 3 14 L 13 14 C 13.554 14 14 13.554 14 13 L 14 3 C 14 2.446 13.554 2 13 2 L 3 2 z M 7 5 L 9 5 L 9 7 L 11 7 L 11 9 L 9 9 L 9 11 L 7 11 L 7 9 L 5 9 L 5 7 L 7 7 L 7 5 z"
-     transform="translate(3 3)"
+     style="color:#6e6e6e;fill:currentColor"
+     d="M 6.1875,5 C 5.5248,5 5,5.54895 5,6.21875 V 10 H 7 V 7 h 3 V 5 Z M 12,5 v 2 h 3 v 3 h 2 V 6.21875 C 17,5.54885 16.4755,5 15.8125,5 Z m -2,3 -3,3 3,3 v -2 h 2 v 2 l 3,-3 -3,-3 v 2 h -2 z m -5,4 v 3.78125 C 5,16.45125 5.5248,17 6.1875,17 H 10 V 15 H 7 v -3 z m 10,0 v 3 h -3 v 2 h 3.8125 C 16.4755,17 17,16.45125 17,15.78125 V 12 Z"
      id="path5" />
 </svg>

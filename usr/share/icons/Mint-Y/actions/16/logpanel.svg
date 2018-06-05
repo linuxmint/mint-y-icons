@@ -12,7 +12,7 @@
    viewBox="0 0 16 16"
    version="1.1"
    id="svg7"
-   sodipodi:docname="sidebar.svg"
+   sodipodi:docname="logpanel.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata11">
@@ -39,7 +39,7 @@
      id="namedview9"
      showgrid="true"
      inkscape:zoom="29.5"
-     inkscape:cx="7.4971824"
+     inkscape:cx="0.71752138"
      inkscape:cy="9.052985"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -65,8 +65,14 @@
      sodipodi:nodetypes="cccccccccccccccccccc" />
   <path
      style="display:inline;opacity:0.5;fill:#6e6e6e;fill-opacity:1;stroke:none;stroke-width:1.52684724;stroke-opacity:1"
-     d="M 6,1.999998 14.00004,2 V 13.999998 L 6,14 Z"
+     d="M 6,1.999998 14.00004,2 V 9.999999 L 6,10.000001 Z"
      id="rect829"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     style="display:inline;opacity:0.5;fill:#6e6e6e;fill-opacity:1;stroke:none;stroke-width:1.52684724;stroke-opacity:1"
+     d="M 2,2 H 4 V 14 H 2 Z"
+     id="rect829-3"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
 </svg>
