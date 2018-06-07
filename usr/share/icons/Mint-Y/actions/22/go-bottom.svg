@@ -1,8 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
- <defs>
-  <style id="current-color-scheme" type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="22"
+   height="22"
+   viewBox="0 0 22 22"
+   version="1.1"
+   id="svg7">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">
    .ColorScheme-Text { color:#6e6e6e; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
- </defs>
- <path style="fill:currentColor" class="ColorScheme-Text" d="M 7 -0.00390625 L 6.96875 7.4648438 L 3.34375 3.8085938 L 1.96875 5.2148438 L 8 11.214844 L 14 5.2148438 L 12.625 3.8085938 L 8.96875 7.4648438 L 9 -0.00390625 L 7 -0.00390625 z M 8 11.996094 C 6.89543 11.996094 6 12.891524 6 13.996094 C 6 15.100664 6.89543 15.996094 8 15.996094 C 9.10457 15.996094 10 15.100664 10 13.996094 C 10 12.891494 9.10457 11.996094 8 11.996094 z" transform="translate(3 3)"/>
+  </defs>
+  <path
+     style="fill:#6e6e6e;fill-opacity:1;stroke-width:0.99870044"
+     d="M 5,10 10.98442,16 17,10 15.62857,8.5937492 12.01299,12.25 11.98187,4.0000002 H 9.98706 L 10.01816,12.25 6.37141,8.5937492 Z m 0.9974,9 h 9.97403 V 17 H 5.9974 Z"
+     id="path5849" />
 </svg>

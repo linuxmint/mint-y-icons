@@ -11,6 +11,7 @@ application-x-executable.png <- application-x-python-bytecode.png
 application-x-executable.png <- binary.png
 application-x-executable.png <- exec.png
 application-x-flash-video.png <- application-x-shockwave-flash.png
+application-x-theme.png <- application-x-gnome-theme-package.png
 audio-x-generic.png <- audio-mpeg.png
 audio-x-playlist.png <- audio-x-mp3-playlist.png
 audio-x-playlist.png <- audio-x-mpegurl.png
@@ -41,14 +42,11 @@ text-x-authors.png <- authors.png
 text-x-authors.png <- text-x-credits.png
 text-x-changelog.png <- text-x-patch.png
 text-x-c++src.png <- text-x-c++.png
-text-x-generic.png <- application-x-gnome-theme-package.png
-text-x-generic.png <- application-x-theme.png
 text-x-generic.png <- document.png
 text-x-generic.png <- text-plain.png
 text-x-generic.png <- text.png
 text-x-generic.png <- wordprocessing.png
-text-x-generic-rtl.png <- application-x-gnome-theme-package-rtl.png
-text-x-generic-rtl.png <- application-x-theme-rtl.png
+
 text-x-generic-rtl.png <- document-rtl.png
 text-x-generic-rtl.png <- text-plain-rtl.png
 text-x-generic-rtl.png <- wordprocessing-rtl.png

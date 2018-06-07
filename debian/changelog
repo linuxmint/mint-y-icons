@@ -1,3 +1,19 @@
+mint-y-icons (1.2.5) tara; urgency=medium
+
+  [ NikoKrause ]
+  * mimetype: video (#164)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 06 Jun 2018 15:04:16 +0100
+
+mint-y-icons (1.2.4) tara; urgency=medium
+
+  [ NikoKrause ]
+  * thunderbird: symbolic link for flatpak app (#163)
+  * mimetype for .theme files (#160)
+  * action icons: consistency between (non-)symbolics (#162)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 06 Jun 2018 14:06:20 +0100
+
 mint-y-icons (1.2.3) tara; urgency=medium
 
   * Remove audio-volume icons
