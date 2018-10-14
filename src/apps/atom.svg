@@ -16,7 +16,7 @@
    height="300"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.91 r"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="atom.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -31,18 +31,18 @@
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="332.48507"
-     inkscape:cy="90.691146"
-     inkscape:current-layer="layer6"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="241.46414"
+     inkscape:cy="134.86848"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-height="1012"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      width="400px"
      height="300px"
      inkscape:snap-nodes="true"
@@ -58,8 +58,8 @@
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-bbox-midpoints="true">
     <inkscape:grid
-       spacingy="1px"
-       spacingx="1px"
+       spacingy="1"
+       spacingx="1"
        id="grid5883"
        type="xygrid"
        enabled="true"
@@ -70,90 +70,105 @@
        color="#000000"
        opacity="0.1254902"
        empcolor="#203ef3"
-       empopacity="0.36470588" />
+       empopacity="0.36470588"
+       originx="0"
+       originy="0" />
     <inkscape:grid
        type="xygrid"
        id="grid11592"
        empspacing="8"
        visible="true"
        enabled="false"
-       spacingx="0.5px"
-       spacingy="0.5px"
+       spacingx="0.5"
+       spacingy="0.5"
        color="#ff0000"
        opacity="0.1254902"
        empcolor="#ff0000"
        empopacity="0.25098039"
        snapvisiblegridlinesonly="true"
-       dotted="true" />
+       dotted="true"
+       originx="0"
+       originy="0" />
   </sodipodi:namedview>
   <defs
      id="defs3">
     <linearGradient
+       id="linearGradient942">
+      <stop
+         id="stop938"
+         offset="0"
+         style="stop-color:#03a172;stop-opacity:1" />
+      <stop
+         id="stop940"
+         offset="1"
+         style="stop-color:#b3e299;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
        inkscape:collect="always"
-       xlink:href="#outerBackgroundGradient-07"
+       xlink:href="#linearGradient942"
        id="linearGradient6279"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,-12,300)"
+       gradientTransform="rotate(-90,144,156)"
        x1="35"
        y1="156"
        x2="253"
        y2="156" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#outerBackgroundGradient-07"
+       xlink:href="#linearGradient942"
        id="linearGradient6281"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,276,572)"
+       gradientTransform="rotate(-90,424,148)"
        x1="417"
        y1="148"
        x2="431"
        y2="148" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#outerBackgroundGradient-07"
+       xlink:href="#linearGradient942"
        id="linearGradient6283"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,316,540)"
+       gradientTransform="rotate(-90,428,112)"
        x1="418"
        y1="112"
        x2="438"
        y2="112" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#outerBackgroundGradient-07"
+       xlink:href="#linearGradient942"
        id="linearGradient6285"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,364,500)"
+       gradientTransform="rotate(-90,432,68)"
        x1="418"
        y1="68"
        x2="446"
        y2="68" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#outerBackgroundGradient-07"
+       xlink:href="#linearGradient942"
        id="linearGradient6287"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,68,556)"
+       gradientTransform="rotate(-90,312,244)"
        x1="292"
        y1="244"
        x2="332"
        y2="244" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#outerBackgroundGradient-07"
+       xlink:href="#linearGradient942"
        id="linearGradient6289"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,260,412)"
+       gradientTransform="rotate(-90,336,76)"
        x1="293"
        y1="76"
        x2="379"
        y2="76" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#outerBackgroundGradient-07"
+       xlink:href="#linearGradient942"
        id="linearGradient6291"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,148,492)"
+       gradientTransform="rotate(-90,320,172)"
        x1="291"
        y1="172"
        x2="349"
