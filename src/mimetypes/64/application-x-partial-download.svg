@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   height="64.000282"
+   id="svg11300"
+   style="display:inline;enable-background:new"
+   version="1.0"
+   viewBox="0 0 64 64.000282"
+   width="64">
+  <metadata
+     id="metadata155">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>elementary Icon Template</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title4162">elementary Icon Template</title>
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient3104-6">
+      <stop
+         id="stop3106-3"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:0.31782946" />
+      <stop
+         id="stop3108-9"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0.24031007" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(1.0843523,0,0,1.1997367,79.65086,-4.1628)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3104-6"
+       id="linearGradient3033"
+       x1="-51.786404"
+       x2="-51.786404"
+       y1="50.786446"
+       y2="2.9062471" />
+  </defs>
+  <path
+     style="display:inline;fill:#fafafa;fill-opacity:1;stroke:none"
+     id="path4160-6"
+     d="m 9.1,0.99994 c 10.54093,0 45.99994,0.004 45.99994,0.004 L 55.1,59.00008 H 9.1 V 1.00026 Z" />
+  <path
+     style="display:inline;fill:none;stroke:url(#linearGradient3033);stroke-width:0.9999218;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path4160-6-1-7"
+     d="m 8.59997,0.49996 c 10.77009,0 47.00003,0.004 47.00003,0.004 l 5e-5,58.99622 H 8.59997 V 0.50021 Z" />
+  <g
+     id="g950">
+    <path
+       style="opacity:0.2;fill:#68b723;fill-opacity:0.97254902;stroke:none;stroke-width:1;stroke-opacity:1"
+       d="m 30,10 v 4 h 4 v -4 z m 4,4 v 4 h 4 v -4 z m 0,4 h -4 v 4 h 4 z m -4,0 v -4 h -4 v 4 z m 0,15.96875 V 34 h 4 v -0.03125 z"
+       id="rect874" />
+    <path
+       style="opacity:0.6;fill:#68b723;fill-opacity:0.97254902;stroke:none;stroke-width:0.99999994;stroke-opacity:1"
+       d="m 26,18 v 4 h 4 v -4 z m 4,4 v 4 h 4 4 v -4 -4 h -4 v 4 z m 0,4 h -4 v 4 h 4 z"
+       id="rect858" />
+    <path
+       style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#68b723;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
+       d="m 30,26 v 4 h 4 v -4 z m 4,4 v 4 h -4 v -4 h -4 v 3.710938 H 18 L 32,51 46,33.710938 l -8,0.002 V 30 Z"
+       id="path10518" />
+  </g>
+</svg>
