@@ -96,6 +96,7 @@ archive-manager.png <- xarchiver.png
 ardour.png <- ardour2.png
 ardour.png <- ardour_icon_22px.png
 arduino.png <- arduino-ide.png
+arduino.png <- cc.arduino.arduinoide.png
 assistant.png <- assistant-qt4.png
 assistant.png <- QtProject-assistant.png
 atom.png <- io.atom.Atom.png
@@ -115,6 +116,7 @@ avast.png <- avastgui.png
 banshee.png <- banshee-1.png
 banshee.png <- media-player-banshee.png
 battlenet.png <- steam_icon_287390.png
+beaver.png <- io.dbeaver.DBeaverCommunity.png
 bitcoin.png <- bitcoin-qt.png
 blender.png <- Blender.png
 blender.png <- org.blender.Blender.png
@@ -214,6 +216,7 @@ dogecoin.png <- multidoge.png
 dolphin-emu.png <- org.DolphinEmu.dolphin-emu.png
 dosbox.png <- com.dosbox.DOSBox.png
 dropbox.png <- chrome-ioekoebejdcmnlefjiknokhhafglcjdl-Default.png
+dropbox.png <- com.dropbox.Client.png
 dropbox.png <- folder-dropbox.png
 ds-emulator.png <- desmume.png
 dvdrip.png <- dvd95.png
@@ -261,6 +264,7 @@ firewall.png <- preferences-system-firewall.png
 firewall.png <- system-config-firewall.png
 flash.png <- adobe-flashplayer.png
 flash.png <- adobeflashplugin.png
+flash.png <- com.adobe.Flash-Player-Projector.png
 flash.png <- flashplayer.png
 flash.png <- flash-player-properties.png
 flash.png <- flashplayerproperties.png
@@ -270,6 +274,7 @@ frozen-bubble.png <- org.frozen_bubble.frozen-bubble.png
 gameconqueror.png <- GameConqueror_128x128.png
 gameconqueror.png <- GameConqueror_72x72.png
 gba.png <- gvbam.png
+gba.png <- io.mgba.mGBA.png
 gba.png <- vbam.png
 gba.png <- VisualBoyAdvance-gtk-32x32.png
 gbrainy.png <- org.gnome.gbrainy.png
@@ -338,6 +343,7 @@ gstreamer.png <- photo-gstreamer.png
 gtg.png <- ktimetracker.png
 half-life2.png <- steam_icon_220.png
 half-life.png <- steam_icon_70.png
+handbrake.png <- fr.handbrake.ghb.png
 handbrake.png <- hb-icon.png
 handbrake.png <- photofilmstrip.png
 hexchat.png <- io.github.Hexchat.png
@@ -399,6 +405,9 @@ java.png <- sun-java.png
 java.png <- sun-javaws.png
 java.png <- sun-jcontrol.png
 jdownloader.png <- jdownloader-beta.png
+jdownloader.png <- org.jdownloader.JDownloader.png
+jetbrains-intellij-idea.png <- com.jetbrains.IntelliJ-IDEA-Community.png
+jetbrains.intellij.idea.png <- com.jetbrains.IntelliJ-IDEA-Ultimate.png
 jetbrains-intellij-idea.png <- idea.png
 jetbrains-intellij-idea.png <- intellij-idea-ce.png
 jetbrains-intellij-idea.png <- intellij_idea.png
@@ -495,12 +504,14 @@ mkvmergeGUI.png <- gnome-builder.png
 mkvmergeGUI.png <- mkv-extractor-gui.png
 mkvmergeGUI.png <- mkv-gui.png
 mkvmergeGUI.png <- mkvmerge.png
+mkvmergeGUI.png <- org.bunkus.mkvtoolnix-gui.png
 mongodb.png <- robomongo.png
 monodevelop.png <- unity-monodevelop.png
 mono-runtime.png <- mono-runtime-common.png
 mpd.png <- cantana.png
 mplayer.png <- gnome-mplayer.png
 mplayer.png <- smplayer.png
+mpv.png <- io.github.GnomeMpv.png
 mpv.png <- mpv-icon-8bit-64x64.png
 mscore.png <- musescore.png
 mscore.png <- org.musescore.MuseScore.png
