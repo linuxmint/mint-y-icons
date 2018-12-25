@@ -1,3 +1,38 @@
+mint-y-icons (1.3.3) tessa; urgency=medium
+
+  [ NikoKrause ]
+  * add symbolic link for geogebra classic (#189)
+  * mimetypes: port some mimetype-symbolics from elementary (#190)
+
+  [ MaxeeDonut ]
+  * add symbolic link for hydrogen h2-icon (#191)
+  * Add franz icon (refer to #188 request) (#192)
+  * Add x-plane icon (#187)
+  * Add Postman icon (#186)
+
+  [ Clement Lefebvre ]
+  * Places: Fix missing symbols in 24/24@2x folder-documents/folder-music
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 15 Dec 2018 13:48:19 +0000
+
+mint-y-icons (1.3.2) tessa; urgency=medium
+
+  [ NikoKrause ]
+  * recolor atom editor icon (#177)
+  * action icons: save, exit, spell-check, document-revert (#176)
+  * mimetypes: backports and improvements (#178)
+  * add network-wireless-*-symbolic icons (#179)
+  * undo/redo consistency (#181)
+
+  [ Clement Lefebvre ]
+  * Add Teal icon theme
+
+  [ NikoKrause ]
+  * actions: add action icons for TeXstudio (#183)
+  * status: add missing wireless-secure icon (#184)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 27 Nov 2018 17:27:08 +0000
+
 mint-y-icons (1.3.1) tessa; urgency=medium
 
   * Add symbolic icons for Redshift status icon
