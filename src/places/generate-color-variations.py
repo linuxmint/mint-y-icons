@@ -23,7 +23,7 @@ COLORS["grey"] = "999999"
 COLORS["orange"] = "cc823f"
 COLORS["pink"] = "e54980"
 COLORS["purple"] = "951595"
-COLORS["red"] = "b74c4a"
+COLORS["red"] = "df2121"
 COLORS["sand"] = "c4a660"
 COLORS["teal"] = "59c3ad"
 
