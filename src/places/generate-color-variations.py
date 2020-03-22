@@ -18,8 +18,8 @@ import os
 COLORS = {}
 COLORS["aqua"] = "66a8cb"
 COLORS["blue"] = "5972c3"
-COLORS["brown"] = "997052"
-COLORS["grey"] = "999999"
+COLORS["brown"] = "7f542b"
+COLORS["grey"] = "767676"
 COLORS["orange"] = "ef6410"
 COLORS["pink"] = "e54980"
 COLORS["purple"] = "951595"
