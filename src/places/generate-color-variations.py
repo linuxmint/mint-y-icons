@@ -16,7 +16,7 @@ import os
 
 # It uses the following color table to do so:
 COLORS = {}
-COLORS["aqua"] = "66a8cb"
+COLORS["aqua"] = "0ca3c1"
 COLORS["blue"] = "0e73d7"
 COLORS["brown"] = "7f542b"
 COLORS["grey"] = "767676"
