@@ -26,6 +26,7 @@ COLORS["purple"] = "8c5dd9"
 COLORS["red"] = "ce2639"
 COLORS["sand"] = "c5a07c"
 COLORS["teal"] = "199ca8"
+COLORS["yellow"] = "e7bc0d"
 
 GREEN_COLOR = "8bb158"
 
