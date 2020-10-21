@@ -136,6 +136,7 @@ bootloader.png <- boot-repair.png
 bootloader.png <- bum.png
 bootloader.png <- grub-customizer.png
 boxes.png <- gnome-boxes.png
+brave.png <- brave-browser.png
 btsync-gui.png <- bittorrentsync.png
 btsync-gui.png <- btsync-gui-gtk.png
 btsync-gui.png <- btsync-user.png
@@ -209,12 +210,12 @@ disk-burner.png <- nero.png
 disk-burner.png <- ripperx.png
 disks.png <- gnome-device-manager.png
 disks.png <- gnome-disks.png
-disks.png <- palimpsest.png
 disks.png <- org.gnome.DiskUtility.png
+disks.png <- palimpsest.png
 disk-usage-analyzer.png <- baobab.png
-disk-usage-analyzer.png <- org.gnome.baobab.png
 disk-usage-analyzer.png <- filelight.png
 disk-usage-analyzer.png <- mate-disk-usage-analyzer.png
+disk-usage-analyzer.png <- org.gnome.baobab.png
 disk-usage-analyzer.png <- serpentine.png
 dogecoin.png <- multidoge.png
 dolphin-emu.png <- org.DolphinEmu.dolphin-emu.png
@@ -315,8 +316,8 @@ gnome-quadrapassel.png <- org.gnome.quadrapassel.png
 gnome-quadrapassel.png <- quadrapassel.png
 gnome-screenshot.png <- applets-screenshooter.png
 gnome-screenshot.png <- ksnapshot.png
-gnome-screenshot.png <- simplescreenrecorder.png
 gnome-screenshot.png <- org.gnome.Screenshot.png
+gnome-screenshot.png <- simplescreenrecorder.png
 gnome-software.png <- org.gnome.Software.png
 gnome-sound-recorder.png <- audio-recorder.png
 gnome-sound-recorder.png <- sound-recorder.png
@@ -485,9 +486,9 @@ locale.png <- virtaal.png
 logviewer.png <- gnome-logs.png
 logviewer.png <- gpk-log.png
 logviewer.png <- logview.png
+logviewer.png <- org.gnome.Logs.png
 logviewer.png <- system-utilities-logviewer.png
 logviewer.png <- utilities-log-viewer.png
-logviewer.png <- org.gnome.Logs.png
 lollypop.png <- org.gnome.Lollypop.png
 lutris.png <- jstest-gtk.png
 mahjongg.png <- gnome-mahjongg.png
@@ -579,11 +580,11 @@ panel.png <- simple-scan.png
 panel.png <- tint2conf.png
 passwords.png <- 1password.png
 passwords.png <- gnome-encfs-manager.png
+passwords.png <- org.gnome.seahorse.Application.png
 passwords.png <- password.png
 passwords.png <- preferences-desktop-user-password.png
 passwords.png <- revelation.png
 passwords.png <- seahorse.png
-passwords.png <- org.gnome.seahorse.Application.png
 passwords.png <- seahorse-preferences.png
 pdfmod.png <- pdfchain.png
 pdfsam.png <- gscan2pdf.png
@@ -622,9 +623,9 @@ preferences-desktop-display.png <- mate-preferences-desktop-display.png
 preferences-desktop-display.png <- unity-display-panel.png
 preferences-desktop-font.png <- fonts.png
 preferences-desktop-font.png <- font-viewer.png
-preferences-desktop-font.png <- org.gnome.font-viewer.png
 preferences-desktop-font.png <- gnome-settings-font.png
 preferences-desktop-font.png <- kfontview.png
+preferences-desktop-font.png <- org.gnome.font-viewer.png
 preferences-desktop-keyboard.png <- cs-keyboard.png
 preferences-desktop-keyboard.png <- eekboard.png
 preferences-desktop-keyboard-shortcuts.png <- gnome-settings-keybindings.png
@@ -857,10 +858,10 @@ ubuntuone.png <- ubuntuone-client.png
 ubuntuone.png <- ubuntuone-installer.png
 ubuntu-sdk.png <- ubuntu-qtcreator.png
 uget.png <- uget-icon.png
+usb-creator.png <- mintstick.png
 usb-creator.png <- unetbootin.png
 usb-creator.png <- usb-creator-gtk.png
 usb-creator.png <- usb-creator-kde.png
-usb-creator.png <- mintstick.png
 user-info.png <- hwinfo.png
 user-info.png <- userinfo.png
 utilities-system-monitor.png <- chrome-ocjnemjmlhjkeilmaidemofakmpclcbi-Default.png
@@ -879,6 +880,7 @@ utilities-terminal.png <- gnome-xterm.png
 utilities-terminal.png <- konsole.png
 utilities-terminal.png <- lxterminal.png
 utilities-terminal.png <- openterm.png
+utilities-terminal.png <- org.gnome.Terminal.png
 utilities-terminal.png <- qterminal.png
 utilities-terminal.png <- Terminal.png
 utilities-terminal.png <- terminal.png
@@ -886,7 +888,6 @@ utilities-terminal.png <- terminal-tango.png
 utilities-terminal.png <- terra.png
 utilities-terminal.png <- tilda.png
 utilities-terminal.png <- xfce-terminal.png
-utilities-terminal.png <- org.gnome.Terminal.png
 vala.png <- valama.png
 varicad.png <- varicad-viewer.png
 video-editor.png <- avidemux.png
@@ -1183,3 +1184,4 @@ yast.png <- yast2.png
 zsnes.png <- com.snes9x.Snes9x.png
 zsnes.png <- snes9x-gtk.png
 zsnes.png <- snes9x.png
+
