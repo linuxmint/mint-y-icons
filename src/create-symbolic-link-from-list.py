@@ -16,7 +16,7 @@ def check_symbolic_links_list():
             else:
                 target, symlink = symbolic_link_ref.split(" <- ")
                 # check if target.svg exists
-                target_svg = target.split(".")[0] + ".svg"
+                target_svg = target.rsplit(".", 1)[0] + ".svg"
                 CHECK_DIR = SRC_DIR
                 if sys.argv[1] == "mimetypes":
                     CHECK_DIR += "/64"
