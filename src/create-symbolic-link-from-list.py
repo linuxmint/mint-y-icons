@@ -17,7 +17,10 @@ def check_symbolic_links_list():
                 target, symlink = symbolic_link_ref.split(" <- ")
                 # check if target.svg exists
                 target_svg = target.split(".")[0] + ".svg"
-                if not os.path.exists(os.path.join(SRC_DIR, target_svg)):
+                CHECK_DIR = SRC_DIR
+                if sys.argv[1] == "mimetypes":
+                    CHECK_DIR += "/64"
+                if not os.path.exists(os.path.join(CHECK_DIR, target_svg)):
                     print(target_svg + " does not exist (line " + str(line_no) + ")")
                     #pass
 
