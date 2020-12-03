@@ -77,8 +77,8 @@ aisleriot.png <- gnome-aisleriot.png
 aisleriot.png <- org.gnome.Aisleriot.png
 amarok.png <- amarok2.png
 amarok.png <- amarok-icon.png
-amd.png <- ccc_large.png
 amd.png <- ccc-large.png
+amd.png <- ccc_large.png
 androidstudio.png <- android-studio.png
 androidstudio.png <- com.google.AndroidStudio.png
 app-launcher.png <- gnome-panel-launcher.png
@@ -374,8 +374,8 @@ internet-mail.png <- email.png
 internet-mail.png <- evolution.png
 internet-mail.png <- geary.png
 internet-mail.png <- kmail.png
-internet-mail.png <- mail_generic.png
 internet-mail.png <- mail-generic.png
+internet-mail.png <- mail_generic.png
 internet-mail.png <- org.gnome.Geary.png
 internet-mail.png <- redhat-email.png
 internet-mail.png <- sylpheed.png
@@ -420,8 +420,8 @@ jetbrains-intellij-idea.png <- com.jetbrains.IntelliJ-IDEA-Community.png
 jetbrains.intellij.idea.png <- com.jetbrains.IntelliJ-IDEA-Ultimate.png
 jetbrains-intellij-idea.png <- idea.png
 jetbrains-intellij-idea.png <- intellij-idea-ce.png
-jetbrains-intellij-idea.png <- intellij_idea.png
 jetbrains-intellij-idea.png <- intellij-idea.png
+jetbrains-intellij-idea.png <- intellij_idea.png
 jetbrains-intellij-idea.png <- intellij-idea-ultimate-edition.png
 jetbrains-intellij-idea.png <- intellij.png
 jetbrains-pycharm.png <- com.jetbrains.PyCharm-Community.png
@@ -598,6 +598,7 @@ plex.png <- chrome-fpniocchabmgenibceglhnfeimmdhdfm-Default.png
 plex.png <- plexhometheater.png
 plex.png <- plexmediamanager.png
 poedit.png <- lokalize.png
+poedit.png <- net.poedit.Poedit.png
 polari.png <- org.gnome.Polari.png
 portal.png <- openarena.png
 portal.png <- steam_icon_400.png
@@ -1186,4 +1187,3 @@ yast.png <- yast2.png
 zsnes.png <- com.snes9x.Snes9x.png
 zsnes.png <- snes9x-gtk.png
 zsnes.png <- snes9x.png
-
