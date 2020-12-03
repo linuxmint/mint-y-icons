@@ -307,8 +307,6 @@ gnome-books.png <- FBReader.png
 gnome-books.png <- org.gnome.Books.png
 gnome-clocks.png <- gworldclock.png
 gnome-documents.png <- org.gnome.Documents.png
-gnome-monitor.png <- gnome-system-monitor.png
-gnome-monitor.png <- org.gnome.SystemMonitor.png
 gnome-nettool.png <- nmap_icon.png
 gnome-photos.png <- org.gnome.Photos.png
 gnome-power-statistics.png <- mate-power-statistics.png
@@ -417,7 +415,7 @@ java.png <- sun-jcontrol.png
 jdownloader.png <- jdownloader-beta.png
 jdownloader.png <- org.jdownloader.JDownloader.png
 jetbrains-intellij-idea.png <- com.jetbrains.IntelliJ-IDEA-Community.png
-jetbrains.intellij.idea.png <- com.jetbrains.IntelliJ-IDEA-Ultimate.png
+jetbrains-intellij-idea.png <- com.jetbrains.IntelliJ-IDEA-Ultimate.png
 jetbrains-intellij-idea.png <- idea.png
 jetbrains-intellij-idea.png <- intellij-idea-ce.png
 jetbrains-intellij-idea.png <- intellij-idea.png
@@ -870,8 +868,10 @@ user-info.png <- userinfo.png
 utilities-system-monitor.png <- chrome-ocjnemjmlhjkeilmaidemofakmpclcbi-Default.png
 utilities-system-monitor.png <- gkrellm.png
 utilities-system-monitor.png <- gnome-monitor.png
+utilities-system-monitor.png <- gnome-system-monitor.png
 utilities-system-monitor.png <- htop.png
 utilities-system-monitor.png <- ksysguard.png
+utilities-system-monitor.png <- org.gnome.SystemMonitor.png
 utilities-system-monitor.png <- preferences-system-performance.png
 utilities-terminal.png <- bash.png
 utilities-terminal.png <- com.gexperts.Tilix.png
