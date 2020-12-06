@@ -645,13 +645,9 @@ preferences-desktop-theme.png <- gtk-theme-config.png
 preferences-desktop-theme.png <- preferences-theme.png
 preferences-desktop-theme.png <- style.png
 preferences-desktop-user.png <- avatar-default.png
-preferences-desktop-user.png <- config-users.png
-preferences-desktop-user.png <- cs-user-accounts.png
 preferences-desktop-user.png <- cs-user.png
 preferences-desktop-user.png <- goa-account.png
 preferences-desktop-user.png <- kuser.png
-preferences-desktop-user.png <- system-config-users.png
-preferences-desktop-user.png <- system-users.png
 preferences-desktop-user.png <- user_icon.png
 preferences-desktop-wallpaper.png <- background.png
 preferences-desktop-wallpaper.png <- gnome-settings-background.png
@@ -831,6 +827,9 @@ system-software-update.png <- software-update-urgent.png
 system-software-update.png <- update-manager.png
 system-software-update.png <- zen-icon.png
 system-software-update.png <- zen-icon.svg.png
+system-users.png <- config-users.png
+system-users.png <- cs-user-accounts.png
+system-users.png <- system-config-users.png
 team-fortress-2.png <- steam_icon_440.png
 teamspeak.png <- teamspeak3.png
 teamspeak.png <- ts3client_linux_amd64.png
