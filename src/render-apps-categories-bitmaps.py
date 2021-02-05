@@ -27,6 +27,13 @@ OPTIPNG = '/usr/bin/optipng'
 MAINDIR = '../usr/share/icons/Mint-Y'
 SOURCES = ['apps', 'categories']
 
+if not os.path.isfile(INKSCAPE):
+    raise Exception("Expected to find Inkscape at /usr/bin/inkscape, but file does not exist.")
+if not os.path.isfile(OPTIPNG):
+    raise Exception("Expected to find OptiPNG at /usr/bin/optipng, but file does not exist.")
+if not os.path.isdir(MAINDIR):
+    raise Exception("Expected to find Mint-Y at ../usr/share/icons/Mint-Y, but directory does not exist.")
+
 # the resolution that non-hi-dpi icons are rendered at (may be 90 or 96 depending on your inkscape build)
 inkscape_version = str(subprocess.check_output(['inkscape', '-V'])).split(' ')[1].split('.')
 inkscape_version = float(inkscape_version[0] + '.' + inkscape_version[1])
