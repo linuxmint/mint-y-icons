@@ -35,6 +35,7 @@ assert (os.path.isdir(MAINDIR)), "Expected to find Mint-Y at ../usr/share/icons/
 # the resolution that non-hi-dpi icons are rendered at (may be 90 or 96 depending on your inkscape build)
 inkscape_version = str(subprocess.check_output(['inkscape', '-V'])).split(' ')[1].split('.')
 inkscape_version = float(inkscape_version[0] + '.' + inkscape_version[1])
+assert (inkscape_version < 1.0), "Expected Inkscape version lower than 1.0. This script doesn't work with Inkscape version 1.0 or higher. This will be changed in the future." 
 if inkscape_version < 0.92: # inkscape version 0.92 changed the default dpi from 90 to 96
     DPI_1_TO_1 = 90
 else:
