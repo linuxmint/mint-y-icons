@@ -226,6 +226,7 @@ def main(args, SRC):
             print("├─ Rendering from \"".decode('utf-8') + os.path.join(file) + "\"")
             handler = ContentHandler(file, True, filter=args.filter)
             xml.sax.parse(open(file), handler)
+            return True
         else:
             # icon not in this directory, try the next one
             print("├─ Input file \"".decode('utf-8') + file + "\" does not exist.")
@@ -266,25 +267,25 @@ else:
     print("│ Rendering from command-line argument \"".decode('utf-8') + args.svg + "\"")
     print("├────────────────────────────────┤".decode('utf-8'))
 
-success = 0
+success_directory = ""
 
 for source in SOURCES:
     if os.path.exists(os.path.join('.', source)):
         SRC = os.path.join('.', source)
         if main(args, SRC):
-            success += 1
+            success_directory = source
     else:
         print("Source path \"" + os.path.join('.', source) + "\" does not exist.")
 if args.svg is not None:
     print("└────────────────────────────────┘".decode('utf-8'))
 
-if success > 0 and args.svg is not None:
-    print("\nSuccessfully processed \"" + args.svg + "\" in " + source + ".\n")
-elif success == 0 and args.svg is not None:
-    print("\nFailed to process \"" + args.svg + "\" in " + source + ".\n")
-elif success > 0:
+if success_directory != "" and args.svg is not None:
+    print("\nSuccessfully processed \"" + args.svg + "\" in \"" + success_directory + "\".\n")
+elif success_directory == "" and args.svg is not None:
+    print("\nFailed to process \"" + args.svg + "\" in " + success_directory + ".\n")
+elif success_directory != "":
     print("Successfully processed listed sources.\n")
-elif success == 0:
+elif success_directory == "":
     print("Failed to process listed sources.\n")
 else:
     raise Exception("Conditional statement falls through.")
