@@ -183,7 +183,8 @@ def main(args, SRC):
                         # If PNG does not exist, create it new
                         if self.force or not os.path.exists(outfile):
                             inkscape_render_rect(self.path, id, dpi, outfile)
-                            print("├─ Rendered new \"".decode('utf-8') + outfile + "\"")
+                            if args.verbose:
+                                print("├─ Rendered new \"".decode('utf-8') + outfile + "\"")
                             new_renders += 1
 
                         # If PNG exists, compare modify time to that of SVG
@@ -194,15 +195,18 @@ def main(args, SRC):
                             # If SVG is newer than PNG, replace PNG with updated version
                             if stat_in.st_mtime > stat_out.st_mtime:
                                 inkscape_render_rect(self.path, id, dpi, outfile)
-                                print("├─ Rendered updated \"".decode('utf-8') + outfile + "\"")
+                                if args.VERBOSE:
+                                    print("├─ Rendered updated \"".decode('utf-8') + outfile + "\"")
                                 # print("Rendered updated " + outfile)
                                 updated_renders += 1
 
                             # If PNG is newer than SVG, leave PNG as is
                             else:
-                                print("├─ \"".decode('utf-8') + outfile + "\" is newer than SVG")
+                                if args.verbose:
+                                    print("├─ \"".decode('utf-8') + outfile + "\" is newer than SVG")
                                 skipped_renders += 1
-                print("├────────────────────────────────┤".decode('utf-8'))
+                if args.verbose:
+                    print("├────────────────────────────────┤".decode('utf-8'))
                 if args.svg is None:
                     print("")
                     print("┌────────────────────────────────┐".decode('utf-8'))
@@ -254,6 +258,8 @@ parser.add_argument('svg', type=str, nargs='?', metavar='SVG',
                     help="Optional SVG names (without extensions) to render. If not given, render all icons")
 parser.add_argument('filter', type=str, nargs='?', metavar='FILTER',
                     help="Optional filter for the SVG file")
+parser.add_argument('--verbose', action='store_true',
+                    help="Print verbose output to the terminal")
 
 args = parser.parse_args()
 
