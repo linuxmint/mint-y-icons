@@ -195,7 +195,7 @@ def main(args, SRC):
                             # If SVG is newer than PNG, replace PNG with updated version
                             if stat_in.st_mtime > stat_out.st_mtime:
                                 inkscape_render_rect(self.path, id, dpi, outfile)
-                                if args.VERBOSE:
+                                if args.verbose:
                                     print("├─ Rendered updated \"".decode('utf-8') + outfile + "\"")
                                 # print("Rendered updated " + outfile)
                                 updated_renders += 1
