@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# coding: utf-8
 #
 # Legal Stuff:
 #
@@ -110,29 +111,30 @@ def main(args, SRC):
                     self.inside.append(self.SVG)
                     return
             elif self.inside[-1] == self.SVG:
-                if (name == "g" and ('inkscape:groupmode' in attrs) and ('inkscape:label' in attrs)
-                   and attrs['inkscape:groupmode'] == 'layer' and attrs['inkscape:label'].startswith('Baseplate')):
-                    self.stack.append(self.LAYER)
-                    self.inside.append(self.LAYER)
-                    self.context = None
-                    self.icon_name = None
-                    self.rects = []
-                    return
+                for attr in attrs.values():
+                    if attr == 'Baseplate':
+                        self.stack.append(self.LAYER)
+                        self.inside.append(self.LAYER)
+                        self.context = None
+                        self.icon_name = None
+                        self.rects = []
+                        return
             elif self.inside[-1] == self.LAYER:
-                if name == "text" and ('inkscape:label' in attrs) and attrs['inkscape:label'] == 'context':
-                    self.stack.append(self.TEXT)
-                    self.inside.append(self.TEXT)
-                    self.text='context'
-                    self.chars = ""
-                    return
-                elif name == "text" and ('inkscape:label' in attrs) and attrs['inkscape:label'] == 'icon-name':
-                    self.stack.append(self.TEXT)
-                    self.inside.append(self.TEXT)
-                    self.text='icon-name'
-                    self.chars = ""
-                    return
-                elif name == "rect":
-                    self.rects.append(attrs)
+                for attr in attrs.values():
+                    if attr == "context":
+                        self.stack.append(self.TEXT)
+                        self.inside.append(self.TEXT)
+                        self.text='context'
+                        self.chars = ""
+                        return
+                    if attr == "icon-name":
+                        self.stack.append(self.TEXT)
+                        self.inside.append(self.TEXT)
+                        self.text='icon-name'
+                        self.chars = ""
+                        return
+                    if name == "rect":
+                        self.rects.append(attrs)
 
             self.stack.append(self.OTHER)
 
@@ -156,11 +158,16 @@ def main(args, SRC):
                 if self.filter is not None and not self.icon_name in self.filter:
                     return
 
-                print (self.context, self.icon_name)
+
+                new_renders = 0
+                updated_renders = 0
+                skipped_renders = 0
+
+                # Each rect represents an icon size to export
                 for rect in self.rects:
                     for dpi_factor in DPIS:
                         width = rect['width']
-                        height = rect['height']
+                        # height = rect['height']
                         id = rect['id']
                         dpi = DPI_1_TO_1 * dpi_factor
 
@@ -172,47 +179,73 @@ def main(args, SRC):
                         outfile = os.path.join(dir, self.icon_name+'.png')
                         if not os.path.exists(dir):
                             os.makedirs(dir)
-                        # Do a time based check!
+
+                        # If PNG does not exist, create it new
                         if self.force or not os.path.exists(outfile):
                             inkscape_render_rect(self.path, id, dpi, outfile)
-                            sys.stdout.write('.')
+                            print("├─ Rendered new \"".decode('utf-8') + outfile + "\"")
+                            new_renders += 1
+
+                        # If PNG exists, compare modify time to that of SVG
                         else:
                             stat_in = os.stat(self.path)
                             stat_out = os.stat(outfile)
+
+                            # If SVG is newer than PNG, replace PNG with updated version
                             if stat_in.st_mtime > stat_out.st_mtime:
                                 inkscape_render_rect(self.path, id, dpi, outfile)
-                                sys.stdout.write('.')
+                                print("├─ Rendered updated \"".decode('utf-8') + outfile + "\"")
+                                # print("Rendered updated " + outfile)
+                                updated_renders += 1
+
+                            # If PNG is newer than SVG, leave PNG as is
                             else:
-                                sys.stdout.write('-')
-                        sys.stdout.flush()
-                sys.stdout.write('\n')
-                sys.stdout.flush()
+                                print("├─ \"".decode('utf-8') + outfile + "\" is newer than SVG")
+                                skipped_renders += 1
+                print("├────────────────────────────────┤".decode('utf-8'))
+                if args.svg is None:
+                    print("")
+                    print("┌────────────────────────────────┐".decode('utf-8'))
+                    print("│ Directory: ".decode('utf-8') + self.context)
+                    print("│ Icon Name: ".decode('utf-8') + self.icon_name)
+                    print("├────────────────────────────────┤".decode('utf-8'))
+                    print("├─ Rendered %d new PNGs".decode('utf-8') % new_renders)
+                    print("├─ Rendered %d updated PNGs".decode('utf-8') % updated_renders)
+                    print("├─ Skipped %d up-to-date PNGs".decode('utf-8') % skipped_renders)
+                    print("└────────────────────────────────┘".decode('utf-8'))
+                    print("")
 
         def characters(self, chars):
             self.chars += chars.strip()
 
+    # If invocation includes a file name, try to process it
+    if args.svg:
+        file = os.path.join(SRC, args.svg + '.svg')
 
-    if not args.svg:
+        if os.path.exists(os.path.join(file)):
+            print("├─ Rendering from \"".decode('utf-8') + os.path.join(file) + "\"")
+            handler = ContentHandler(file, True, filter=args.filter)
+            xml.sax.parse(open(file), handler)
+        else:
+            # icon not in this directory, try the next one
+            print("├─ Input file \"".decode('utf-8') + file + "\" does not exist.")
+            return False
+
+    # If invocation does not include a file name, process all SVGs in listed sources
+    else:
+        print("Rendering from path \"".decode('utf-8') + SRC + "\"")
         if not os.path.exists(MAINDIR):
             os.mkdir(MAINDIR)
-        print ('')
-        print ('Rendering from SVGs in', SRC)
-        print ('')
+
         for file in os.listdir(SRC):
             if file[-4:] == '.svg':
                 file = os.path.join(SRC, file)
                 handler = ContentHandler(file)
                 xml.sax.parse(open(file), handler)
-        print ('')
-    else:
-        file = os.path.join(SRC, args.svg + '.svg')
+        
+        return True
 
-        if os.path.exists(os.path.join(file)):
-            handler = ContentHandler(file, True, filter=args.filter)
-            xml.sax.parse(open(file), handler)
-        else:
-            # icon not in this directory, try the next one
-            pass
+    
 
 parser = argparse.ArgumentParser(description='Render icons from SVG to PNG')
 
@@ -223,7 +256,36 @@ parser.add_argument('filter', type=str, nargs='?', metavar='FILTER',
 
 args = parser.parse_args()
 
+if args.svg is None:
+    print("\nNo arguments provided; processing listed sources:\n")
+    for source in SOURCES:
+        print("-- \"" + os.path.join('.', source) + "\"")
+    print("")
+else:
+    print("┌────────────────────────────────┐".decode('utf-8'))
+    print("│ Rendering from command-line argument \"".decode('utf-8') + args.svg + "\"")
+    print("├────────────────────────────────┤".decode('utf-8'))
+
+success = 0
+
 for source in SOURCES:
     if os.path.exists(os.path.join('.', source)):
         SRC = os.path.join('.', source)
-        main(args, SRC)
+        if main(args, SRC):
+            success += 1
+    else:
+        print("Source path \"" + os.path.join('.', source) + "\" does not exist.")
+if args.svg is not None:
+    print("└────────────────────────────────┘".decode('utf-8'))
+
+if success > 0 and args.svg is not None:
+    print("\nSuccessfully processed \"" + args.svg + "\" in " + source + ".\n")
+elif success == 0 and args.svg is not None:
+    print("\nFailed to process \"" + args.svg + "\" in " + source + ".\n")
+elif success > 0:
+    print("Successfully processed listed sources.\n")
+elif success == 0:
+    print("Failed to process listed sources.\n")
+else:
+    raise Exception("Conditional statement falls through.")
+
