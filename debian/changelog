@@ -1,3 +1,14 @@
+mint-y-icons (1.6.0) vanessa; urgency=medium
+
+  [ ronyala ]
+  * Fix rtl support for go-* arrow icons (#306)
+
+  [ Copra ]
+  * icons for patreon (web app) bitwarden and ask.fm (web app) (#300)
+  * Add 3rd party app icons (#312)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 11 Jun 2022 11:21:03 +0200
+
 mint-y-icons (1.5.9) una; urgency=medium
 
   [ NikoKrause ]
