@@ -2,8 +2,11 @@ Source: mint-y-icons
 Section: gnome
 Priority: optional
 Maintainer: Clement Lefebvre <root@linuxmint.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Build-Depends:
+ debhelper-compat (= 12)
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://github.com/linuxmint/mint-y-icons
 
 Package: mint-y-icons
 Architecture: all
