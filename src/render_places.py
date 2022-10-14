@@ -28,7 +28,7 @@ def generate_color(color):
                 print("Rendering %s" % icon_path)
                 os.system("inkscape --export-id=%s \
                                --export-id-only \
-                               --export-png=%s %s >/dev/null \
+                               --export-filename=%s %s >/dev/null \
                      && optipng -o7 --quiet %s" % (name, icon_path, source, icon_path))
 
                 icon_path = os.path.join(icon_dir_2x, icon_name + ".png")
@@ -36,7 +36,7 @@ def generate_color(color):
                 os.system("inkscape --export-id=%s \
                                --export-id-only \
                                --export-dpi=192 \
-                               --export-png=%s %s >/dev/null \
+                               --export-filename=%s %s >/dev/null \
                      && optipng -o7 --quiet %s" % (name, icon_path, source, icon_path))
 
 def parse_arg(arg):
