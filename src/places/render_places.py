@@ -3,17 +3,21 @@ import os
 import subprocess
 import sys
 
-colors = ["Aqua", "Blue", "Brown", "Green", "Grey", "Orange", "Pink", "Purple", "Red", "Sand", "Teal"]
 sizes = ["16", "22", "24", "32", "48", "64", "96", "128"]
 
-
 def generate_color(color):
-    source = "places/" + color.lower() + ".svg"
+    source = f"{color}.svg"
+    green_dir = "../../usr/share/icons/Mint-Y"
     if color == "Green":
-        theme_dir = "../usr/share/icons/Mint-Y"
+        theme_dir = green_dir
+        os.system(f"mkdir -p {theme_dir}")
     else:
-        theme_dir = "../usr/share/icons/Mint-Y-%s" % color
-    os.system("mkdir -p %s" % theme_dir)
+        theme_dir = "../../usr/share/icons/Mint-Y-%s" % color
+        os.system(f"mkdir -p {theme_dir}")
+        os.system(f"rm -rf {theme_dir}/*")
+        os.system(f"cp -R {green_dir}/places {theme_dir}/")
+        os.system(f"rm -rf {theme_dir}/places/symbolic")
+        os.system(f"sed s/COLOR/{color}/g index.theme > {theme_dir}/index.theme ")
 
     for size in sizes:
         icon_dir = os.path.join(theme_dir, "places", size)
@@ -52,14 +56,16 @@ def generate_color(color):
 
 def parse_arg(arg):
     if arg == "All":
-        for color in colors:
-            generate_color(color)
+        for filename in sorted(os.listdir(".")):
+            if filename.endswith(".svg") and filename not in ["extra.svg", "src.svg"]:
+                color = filename.replace(".svg", "")
+                generate_color(color)
     else:
         generate_color(arg)
 
 def usage():
     print ("Usage: render_places.py color \n\
-    color can be: Aqua, Blue, Brown, Green, Grey, Orange, Pink, Purple, Red, Sand, Teal, Yellow or All.")
+    color can be a particular color or All.")
     sys.exit(1)
 
 if len(sys.argv) != 2:
