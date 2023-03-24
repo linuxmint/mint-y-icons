@@ -56,6 +56,7 @@ def generate_color(color):
 
 def parse_arg(arg):
     if arg == "All":
+        os.system("rm -rf ../../usr/share/icons/Mint-Y-*")
         for filename in sorted(os.listdir(".")):
             if filename.endswith(".svg") and filename not in ["extra.svg", "src.svg"]:
                 color = filename.replace(".svg", "")
