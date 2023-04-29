@@ -39,6 +39,16 @@ This theme is licensed under Creative Commons Attribution-ShareAlike 4.0 (https:
 
 Any bundled software is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3, or (at your option) any later version.
 
+Adding a theme
+==============
+
+1. Add a `VARIANTS.append({...})` line with the new color scheme to `src/places/generate-color-variations.py`.
+2. Run the `generate-color-variations.py` Python script.
+3. Run the `render_places.py` Python script to generate the new assets in the local `usr/share/icons` directory.
+4. Add the new theme to the `create-links` and `debian/postinst` scripts.
+5. Test the theme by copying the corresponding directory from `usr/share/icons` to `~/.icons/`
+6. Commit and push all newly created files in git.
+
 Useful commands
 ===============
 
