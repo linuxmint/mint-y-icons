@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Mint-Y-Grey
-Inherits=Mint-Y,Adwaita,gnome,hicolor
-Comment=Icon theme built for Linux Mint. Uses elements of Vibrancy and Moka.
+Inherits=Mint-Y,Mint-L,Adwaita,gnome,hicolor
+Comment=Icon theme built for Linux Mint. Uses elements of Vibrancy and Papirus.
 
 Directories=places/16,places/16@2x,places/22,places/22@2x,places/24,places/24@2x,places/32,places/32@2x,places/48,places/48@2x,places/64,places/64@2x,places/96,places/96@2x,places/128,places/128@2x
 

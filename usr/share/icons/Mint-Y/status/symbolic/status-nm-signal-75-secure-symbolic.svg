@@ -1,49 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   height="16"
    width="16"
+   height="16"
+   viewBox="0 0 16 16"
    version="1.1"
-   id="svg10">
-  <metadata
-     id="metadata16">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+   id="svg5"
+   inkscape:version="1.2.2 (1:1.2.2+202305151914+b0a8486541)"
+   sodipodi:docname="network-wireless-secure-signal-good-symbolic.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="51.875"
+     inkscape:cx="7.2"
+     inkscape:cy="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
   <defs
-     id="defs14" />
+     id="defs2" />
   <path
+     id="path346"
      style="fill:#bebebe;fill-opacity:1"
-     id="path2"
-     d="m 13,9.0000003 c -1.108,0 -2,0.91 -2,2.0309997 V 12 h -0.5 c 0,0 -0.5,0 -0.5,0.5 v 3 c 0,0.5 0.5,0.5 0.5,0.5 h 5 c 0,0 0.5,0 0.5,-0.5 v -3 C 16,12 15.5,12 15.5,12 H 15 V 11.031 C 15,9.9110003 14.108,9.0000003 13,9.0000003 Z M 13,10 c 0.554,0 1,0.442 1,1 v 1 h -2 v -1 c 0,-0.558 0.446,-1 1,-1 z" />
-  <g
-     id="g839">
-    <path
-       id="path850-3"
-       d="m 8,8 a 4.2894239,3.4400756 0 0 0 -3.9375,2.078125 l 1.0917969,1.365234 A 3.9905903,4.7362423 0 0 1 8,10.019531 a 3.9905903,4.7362423 0 0 1 2.033203,0.673828 c 0.07873,-0.691502 0.37864,-1.3226562 0.845703,-1.7968746 A 4.2894239,3.4400756 0 0 0 8,8 Z"
-       style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       id="path850-5"
-       d="m 8,5.0039062 c -2.3921256,0.0027 -4.5807479,0.9956876 -5.953125,2.5546876 l 1.3300781,1.671875 C 4.3569422,7.6974506 6.215906,7.0079013 8,7.0058594 9.3562867,7.0065693 10.748613,7.410842 11.771484,8.2753906 12.147135,8.1023829 12.5615,8 13,8 c 0.18969,0 0.374449,0.01993 0.552734,0.056641 L 13.949219,7.5585938 C 12.778397,5.839516 10.391832,5.0052295 8,5.0039062 Z"
-       style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="M 8,2 C 4.9568,2 2.167467,3.0512 0,5 L 1.367467,6.6666666 C 3.2992,4.9728 5.3463714,3.9936561 7.9981044,3.9936561 c 2.6527996,0 4.6098956,0.9290105 6.6365626,2.7060772 L 16,5 C 13.8336,3.0522666 11.044267,2 8,2 Z"
-       overflow="visible"
-       style="color:#000000;overflow:visible;opacity:0.35;fill:#bebebe;fill-opacity:1;stroke-width:1.06666672;marker:none"
-       id="path2-3" />
-    <path
-       id="path2-36"
-       d="m 8.0058594,11 c -0.883,0 -1.9143906,0.762156 -2.2753906,1.160156 L 8,15 9,13.748047 V 12.5 11.621094 11.275391 C 8.6749941,11.122506 8.335675,11 8.0058594,11 Z"
-       style="color:#000000;overflow:visible;fill:#bebebe;fill-opacity:1;marker:none" />
-  </g>
+     d="M 8 1 C 5.7125046 1.00938 3.4847495 1.731699 1.6269531 3.0664062 C 1.0830943 3.4549956 0.5757272 3.8923979 0.11132812 4.3730469 L 8 14 L 9 12.779297 L 9 11 L 10 11 C 10 9.366272 11.29341 8.0464057 12.916016 8.0019531 L 15.904297 4.3554688 C 15.439837 3.8747796 14.9325 3.4373773 14.388672 3.0488281 C 12.524476 1.7172309 10.290996 1.001 8 1 z M 8 3 C 9.8269496 3.0003906 11.610131 3.5572617 13.113281 4.5957031 L 11.833984 6.1582031 C 10.696073 5.4069663 9.3635187 5.0044174 8 5 C 6.6354177 5.0051963 5.3021013 5.4091286 4.1640625 6.1621094 L 2.890625 4.6074219 C 4.391122 3.5655239 6.1732036 3.0048 8 3 z " />
+  <path
+     d="m 13,9.0000007 c -1.108,0 -2,0.9100001 -2,2.0309993 V 12 H 9.9999998 v 4 H 16 V 12 H 15 V 11.031 C 15,9.9110008 14.108,9.0000007 13,9.0000007 Z M 13,10 c 0.554,0 1,0.442001 1,1 v 1 h -2 v -1 c 0,-0.557999 0.446,-1 1,-1 z"
+     id="path2053"
+     style="fill:#bebebe;fill-opacity:1" />
 </svg>

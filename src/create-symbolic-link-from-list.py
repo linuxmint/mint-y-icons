@@ -43,16 +43,19 @@ def delete_symbolic_links():
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Pass argument: ")
+        print("    actions")
         print("    apps")
         print("    categories")
+        print("    devices")
         print("    mimetypes")
+        print("    status")
         print(" ")
         print("    show-deadlinks")
         print("    delete-deadlinks")
         print("    delete-symbolic-apps")
         print("    delete-symbolic-categories")
     else:
-        if sys.argv[1] in ["apps", "categories", "mimetypes"]:
+        if sys.argv[1] in ["actions", "apps", "categories", "devices", "mimetypes", "status"]:
             SYMBOLIC_APPS_FILE = os.path.join(os.getcwd(), "symbolic-" + sys.argv[1] + "-list")
             SRC_DIR = os.path.join(os.getcwd(), sys.argv[1])
             APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y", sys.argv[1])
@@ -73,9 +76,12 @@ if __name__ == "__main__":
             subprocess.call(['find', '-L', MINTY_DIR, '-type', 'l', '-delete'])
         else:
             print("Wrong argument! Valid arguments are:")
+            print("    actions")
             print("    apps")
             print("    categories")
+            print("    devices")
             print("    mimetypes")
+            print("    status")
             print(" ")
             print("    show-deadlinks")
             print("    delete-deadlinks")
