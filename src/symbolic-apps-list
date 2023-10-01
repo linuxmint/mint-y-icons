@@ -226,6 +226,8 @@ hexchat.png <- io.github.HexChat.png
 ibus.png <- ibus-engine.png
 ibus.png <- ibus-setup-chewing.png
 ibus.png <- ibus-setup.png
+im-chooser.png <- cs-input-method.png
+im-chooser.png <- mintlocale-im.png
 inkscape.png <- org.inkscape.Inkscape.png
 inkscape.png <- inkscape-logo.png
 internet-mail.png <- claws-mail.png
@@ -541,6 +543,13 @@ sudoku.png <- org.gnome.Sudoku.png
 sudoku.png <- org.kde.ksudoku.png
 syncthing.png <- me.kozec.syncthingtk.png
 syncthing.png <- syncthing-gtk.png
+system-error.png <- abrt.png
+system-error.png <- apport-gtk2.png
+system-error.png <- apport.png
+system-error.png <- bug-buddy.png
+system-error.png <- drkonqi.png
+system-error.png <- gnome-abrt.png
+system-error.png <- kbugbuster.png
 system-file-manager.png <- nautilus.png
 system-file-manager.png <- nemo.png
 system-file-manager.png <- org.gnome.nautilus.png
@@ -674,6 +683,10 @@ web-netflix.png <- msedge-ahdabofbdlkjeniniajfcdlhanijbakd-Default.png
 web-netflix.png <- netflix-desktop.png
 web-netflix.png <- NetflixIcon.png
 web-netflix.png <- netflix.png
+web-slack.png <- brave-jeogkiiogjbmhklcnbgkdcjoioegiknm-Default.png
+web-slack.png <- chrome-jeogkiiogjbmhklcnbgkdcjoioegiknm-Default.png
+web-slack.png <- msedge-jeogkiiogjbmhklcnbgkdcjoioegiknm-Default.png
+web-slack.png <- com.slack.Slack.png
 web-spotify.png <- chrome-cnkjkdjlofllcpbemipjbcpfnglbgieh-Default.png
 web-spotify.png <- com.spotify.Client.png
 web-spotify.png <- eu.tiliado.NuvolaAppSpotify.png
