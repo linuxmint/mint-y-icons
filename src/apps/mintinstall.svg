@@ -7,7 +7,7 @@
    viewBox="0 0 480 300"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (1:1.2.2+202305151914+b0a8486541)"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
    sodipodi:docname="mintinstall.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,9 +25,9 @@
      inkscape:document-units="px"
      showgrid="false"
      showborder="false"
-     inkscape:zoom="2.6866667"
-     inkscape:cx="240.07444"
-     inkscape:cy="150"
+     inkscape:zoom="1.4958333"
+     inkscape:cx="240"
+     inkscape:cy="150.08357"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -35,7 +35,86 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg5" />
   <defs
-     id="defs2" />
+     id="defs2">
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask15283-2">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         id="rect15285-0"
+         width="56"
+         height="28"
+         x="292"
+         y="144" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask13888">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         id="rect13890"
+         width="84"
+         height="42"
+         x="294"
+         y="34" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask15283">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         id="rect15285"
+         width="56"
+         height="28"
+         x="292"
+         y="144" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask12674">
+      <rect
+         style="opacity:1;fill:#e4e4e4;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         id="rect12676"
+         width="42"
+         height="42"
+         x="291"
+         y="223"
+         ry="9" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask14778-6">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         id="rect14780-1"
+         width="28"
+         height="14"
+         x="418"
+         y="54" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask14156">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         id="rect14158"
+         width="20"
+         height="10"
+         x="418"
+         y="102" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask14632">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         id="rect14634"
+         width="16"
+         height="8"
+         x="416"
+         y="140" />
+    </mask>
+  </defs>
   <g
      id="Baseplate"
      style="display:none">
@@ -182,7 +261,7 @@
   <g
      id="Background">
     <rect
-       style="fill:#e0e0e0;fill-opacity:1"
+       style="fill:#e4e4e4;fill-opacity:1"
        id="rect597"
        width="224"
        height="224"
@@ -190,7 +269,7 @@
        y="44"
        ry="48" />
     <rect
-       style="opacity:1;fill:#e0e0e0;fill-opacity:1"
+       style="opacity:1;fill:#e4e4e4;fill-opacity:1"
        id="rect771"
        width="84"
        height="84"
@@ -198,7 +277,7 @@
        y="34"
        ry="18" />
     <rect
-       style="opacity:1;fill:#e0e0e0;fill-opacity:1"
+       style="opacity:1;fill:#e4e4e4;fill-opacity:1"
        id="rect1133"
        width="56"
        height="56"
@@ -206,7 +285,7 @@
        y="144"
        ry="12" />
     <rect
-       style="opacity:1;fill:#e0e0e0;fill-opacity:1"
+       style="opacity:1;fill:#e4e4e4;fill-opacity:1"
        id="rect1263"
        width="42"
        height="42"
@@ -214,7 +293,7 @@
        y="223"
        ry="9" />
     <rect
-       style="opacity:1;fill:#e0e0e0;fill-opacity:1"
+       style="opacity:1;fill:#e4e4e4;fill-opacity:1"
        id="rect1366"
        width="28"
        height="28"
@@ -222,7 +301,7 @@
        y="54"
        ry="6" />
     <rect
-       style="opacity:1;fill:#e0e0e0;fill-opacity:1"
+       style="opacity:1;fill:#e4e4e4;fill-opacity:1"
        id="rect1400"
        width="16"
        height="16"
@@ -230,13 +309,79 @@
        y="140"
        ry="4" />
     <rect
-       style="opacity:1;fill:#e0e0e0;fill-opacity:1"
+       style="opacity:1;fill:#e4e4e4;fill-opacity:1"
        id="rect1434"
        width="20"
        height="20"
        x="418"
        y="102"
        ry="4" />
+  </g>
+  <g
+     id="g1">
+    <rect
+       style="fill:#cecece;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+       id="rect14628"
+       width="16"
+       height="16"
+       x="416"
+       y="140"
+       ry="4"
+       mask="url(#mask14632)" />
+    <rect
+       style="fill:#cecece;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+       id="rect14096"
+       width="20"
+       height="20"
+       x="418"
+       y="102"
+       ry="4"
+       mask="url(#mask14156)" />
+    <rect
+       style="fill:#cecece;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+       id="rect14774"
+       width="28"
+       height="28"
+       x="418"
+       y="54"
+       ry="6"
+       mask="url(#mask14778-6)" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke-width:4.88504;stroke-linecap:round;stroke-linejoin:round"
+       id="rect11528"
+       width="42"
+       height="21"
+       x="291"
+       y="223"
+       mask="url(#mask12674)" />
+    <rect
+       style="fill:#cecece;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+       id="rect15279"
+       width="56"
+       height="56"
+       x="292"
+       y="144"
+       ry="12"
+       mask="url(#mask15283)" />
+    <rect
+       style="fill:#cecece;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+       id="rect13621"
+       width="84"
+       height="84"
+       x="294"
+       y="34"
+       ry="18"
+       mask="url(#mask13888)" />
+    <rect
+       style="fill:#cecece;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+       id="rect15279-1"
+       width="56"
+       height="56"
+       x="292"
+       y="144"
+       ry="12"
+       mask="url(#mask15283-2)"
+       transform="matrix(4,0,0,4,-1136,-532)" />
   </g>
   <g
      id="Symbols">
