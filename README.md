@@ -2,25 +2,13 @@
 Credits
 =======
 
-The application and category icons originate from the Moka icon theme:
-
-* Link: https://github.com/moka-project/moka-icon-theme
-* Author: Sam Hewitt <hewittsamuel@gmail.com>
-* License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
-
-The device icons originate from the Paper icon theme:
-
-* Link: https://github.com/snwh/paper-icon-theme
-* Author: Sam Hewitt <hewittsamuel@gmail.com>
-* License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
-
 The mimetype icons originate from the Elementary icon theme:
 
 * Link: https://github.com/elementary/icons
 * Author: Members of the Elementary OS team (https://github.com/orgs/elementary/people)
 * License: GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)
 
-The places, action and panel icons originate from the Papirus theme:
+The applications, categories, devices, places, action and panel icons originate and inspired from the Papirus theme:
 
 * Link: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 * Author: Members of the Papirus Development Team (https://github.com/orgs/PapirusDevelopmentTeam/people)
@@ -54,6 +42,11 @@ VARIANTS.append({"name":"Suse","folder":"183f50","backfolder":"00a489","paper":"
 3. Run `./render_places.py Suse`. This generates the new icon theme in `../../usr/share/icons/Mint-Y-Suse`.
 4. You can test your theme by copying it to `/usr/share/icons/` or `~/.icons/`
 6. This theme only contains places icons, but it inherits Mint-Y, so you can package it or distribute it to anyone who already has Mint-Y installed.
+
+How to Contribute
+===============
+
+Read [here](src/README.md).
 
 Useful commands
 ===============
