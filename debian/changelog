@@ -1,3 +1,14 @@
+mint-y-icons (1.6.7) victoria; urgency=medium
+
+  [ Michael Webster ]
+  * Mint-Y: Add cs-gestures icon.
+  * Add document-new annd document-revert color icons.
+  * Add missing 16px fullcolor help icons.
+  * Remove all generic symbolic action icons, and those color icons added in ab2ae4b4f, 07a087f7.
+  * actions: Remove broken links.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 08 Jul 2023 18:40:01 +0200
+
 mint-y-icons (1.6.6) victoria; urgency=medium
 
   [ Nazar Niphone ]
