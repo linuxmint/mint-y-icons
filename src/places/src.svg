@@ -971,15 +971,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1536"
-     inkscape:window-height="897"
+     inkscape:window-width="1440"
+     inkscape:window-height="868"
      id="namedview4"
      showgrid="true"
-     inkscape:zoom="0.65656084"
-     inkscape:cx="392.19518"
-     inkscape:cy="760.02095"
-     inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:zoom="0.68591319"
+     inkscape:cx="483.29731"
+     inkscape:cy="693.23642"
+     inkscape:window-x="1536"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      inkscape:snap-bbox="true"
@@ -4702,12 +4702,21 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     id="system-file-manager_128"
-     inkscape:label="sfm128"
-     transform="translate(-11.621229,-9.3705137)">
+     id="file-manager_128"
+     inkscape:label="fm128"
+     transform="matrix(1.0089289,0,0,1,-12.014384,-6.249485)"
+     style="display:inline">
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:1.35669"
+       id="rect1"
+       width="126.86722"
+       height="128"
+       x="516.70599"
+       y="674.56653"
+       ry="0" />
     <g
        id="g2"
-       transform="matrix(1.1296655,0,0,1.1296655,-19.393873,-201.40097)">
+       transform="matrix(0.99022246,0,0,0.99022246,48.663197,-86.823429)">
       <rect
          style="opacity:0.2;fill:#000000;stroke-width:0.501362"
          id="rect651"
@@ -4731,9 +4740,9 @@
          sodipodi:nodetypes="sscsscsss" />
     </g>
     <g
-       id="folder_128-7"
+       id="g4142"
        inkscape:label="#g4142"
-       transform="matrix(0.8408786,0,0,0.8408786,533.24064,686.85652)">
+       transform="matrix(0.73708271,0,0,0.73708271,533.08192,691.78982)">
       <rect
          y="-0.071428001"
          x="0"
@@ -4797,15 +4806,24 @@
     </g>
   </g>
   <g
-     id="system-file-manager_96"
-     inkscape:label="sfm96"
-     transform="matrix(0.75000002,0,0,0.75000002,258.14062,193.46614)">
+     id="file-manager_96"
+     inkscape:label="fm96"
+     transform="matrix(0.56752255,0,0,0.56250003,414.03434,348.59118)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:1.36273"
+       id="rect1-3"
+       width="128"
+       height="128"
+       x="554"
+       y="653"
+       ry="0"
+       transform="matrix(1.3215334,0,0,1.3333333,-336.56574,-257.95485)" />
     <g
-       id="g5"
-       transform="matrix(1.1296655,0,0,1.1296655,-25.393873,-203.40097)">
+       id="g2-6"
+       transform="matrix(1.3202966,0,0,1.3202966,-228.49325,-402.47479)">
       <rect
          style="opacity:0.2;fill:#000000;stroke-width:0.501362"
-         id="rect3"
+         id="rect651-7"
          width="112.30511"
          height="112.30511"
          x="480.16916"
@@ -4813,31 +4831,31 @@
          ry="24.065378" />
       <rect
          style="fill:#ce9f52;fill-opacity:1;stroke-width:0.501362"
-         id="rect4"
+         id="rect597-5"
          width="112.30511"
          height="112.30511"
          x="480.16916"
          y="777.60974"
          ry="24.065378" />
       <path
-         id="path5"
+         id="rect653-3"
          style="opacity:0.2;fill:#ffffff;stroke-width:0.501362"
          d="m 504.23455,777.60972 c -13.33221,0 -24.06538,10.73317 -24.06538,24.06538 v 1.00272 c 0,-13.3322 10.73317,-24.06537 24.06538,-24.06537 h 64.17435 c 13.33219,0 24.06537,10.73317 24.06537,24.06537 v -1.00272 c 0,-13.33221 -10.73318,-24.06538 -24.06537,-24.06538 z"
          sodipodi:nodetypes="sscsscsss" />
     </g>
     <g
-       id="g13"
+       id="g4142-5"
        inkscape:label="#g4142"
-       transform="matrix(0.8408786,0,0,0.8408786,527.24064,684.85652)">
+       transform="matrix(0.9827769,0,0,0.98277692,417.39835,635.67618)">
       <rect
          y="-0.071428001"
          x="0"
          height="128"
          width="128"
-         id="rect5"
+         id="rect4140-7-6-6"
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         id="g12"
+         id="g899-0-4-5-2"
          transform="matrix(1.9285714,0,0,1.9215686,2.2857152,1.4775925)"
          style="display:inline">
         <rect
@@ -4848,11 +4866,11 @@
            y="22"
            rx="2.8"
            ry="2.8"
-           id="rect7" />
+           id="rect2-1-7-9-6-9" />
         <path
            style="fill:#c89e6b;fill-opacity:1"
            d="M 4,46.2 C 4,47.751 5.2488,49 6.8,49 H 57.2 C 58.751,49 60,47.751 60,46.2 V 15.8 C 60,14.249 58.751,13 57.2,13 H 32 C 27.8,13 26.4,7 22.2,7 H 6.8 C 5.2488,7 4,8.2488 4,9.8"
-           id="path8" />
+           id="path4-2-8-2-9-1" />
         <rect
            style="opacity:0.2"
            width="56"
@@ -4861,7 +4879,7 @@
            y="20"
            rx="2.8"
            ry="2.8"
-           id="rect9" />
+           id="rect6-9-6-0-3-2" />
         <rect
            style="fill:#e8e8e8"
            width="48"
@@ -4870,9 +4888,9 @@
            y="16"
            rx="2.8"
            ry="2.8"
-           id="rect10" />
+           id="rect8-3-8-6-7-7" />
         <g
-           id="g11"
+           id="g829-5-8-8-4-0"
            transform="matrix(1.3999411,0,0,1.3845614,-1.5997633,-1.1528531)">
           <rect
              style="fill:#eeca8f"
@@ -4882,25 +4900,33 @@
              y="16"
              rx="2"
              ry="2"
-             id="rect11" />
+             id="rect10-35-1-4-9-5-9" />
         </g>
         <path
            style="opacity:0.1;fill:#ffffff"
            d="M 6.8008,7 C 5.2496,7 4,8.2496 4,9.8008 V 10.801 C 4,9.2496 5.2496,8 6.8008,8 H 22.199 c 4.2,0 5.601,6 9.801,6 H 57.199 C 58.75,14 60,15.25 60,16.801 v -1 C 60,14.25 58.75,13 57.199,13 H 32 C 27.8,13 26.399,7 22.199,7 Z"
-           id="path11" />
+           id="path12-9-1-6-2-3" />
       </g>
     </g>
   </g>
   <g
-     id="system-file-manager_64"
-     inkscape:label="sfm64"
-     transform="matrix(0.50000001,0,0,0.50000001,488.24666,393.98252)">
+     id="file-manager_64"
+     inkscape:label="fm64"
+     transform="matrix(0.50446447,0,0,0.50000001,482.05277,395.04948)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:1.35669"
+       id="rect83"
+       width="126.86721"
+       height="128"
+       x="503.68369"
+       y="650.99829"
+       ry="0" />
     <g
-       id="g15"
-       transform="matrix(1.1296655,0,0,1.1296655,-25.393873,-203.40097)">
+       id="g85"
+       transform="matrix(0.99022249,0,0,0.99022249,35.640921,-110.39171)">
       <rect
          style="opacity:0.2;fill:#000000;stroke-width:0.501362"
-         id="rect14"
+         id="rect84"
          width="112.30511"
          height="112.30511"
          x="480.16916"
@@ -4908,31 +4934,31 @@
          ry="24.065378" />
       <rect
          style="fill:#ce9f52;fill-opacity:1;stroke-width:0.501362"
-         id="rect15"
+         id="rect85"
          width="112.30511"
          height="112.30511"
          x="480.16916"
          y="777.60974"
          ry="24.065378" />
       <path
-         id="path15"
+         id="path85"
          style="opacity:0.2;fill:#ffffff;stroke-width:0.501362"
          d="m 504.23455,777.60972 c -13.33221,0 -24.06538,10.73317 -24.06538,24.06538 v 1.00272 c 0,-13.3322 10.73317,-24.06537 24.06538,-24.06537 h 64.17435 c 13.33219,0 24.06537,10.73317 24.06537,24.06537 v -1.00272 c 0,-13.33221 -10.73318,-24.06538 -24.06537,-24.06538 z"
          sodipodi:nodetypes="sscsscsss" />
     </g>
     <g
-       id="g22"
+       id="g92"
        inkscape:label="#g4142"
-       transform="matrix(0.8408786,0,0,0.8408786,527.24064,684.85652)">
+       transform="matrix(0.73708268,0,0,0.73708275,520.05965,668.22156)">
       <rect
          y="-0.071428001"
          x="0"
          height="128"
          width="128"
-         id="rect16"
+         id="rect86"
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         id="g21"
+         id="g91"
          transform="matrix(1.9285714,0,0,1.9215686,2.2857152,1.4775925)"
          style="display:inline">
         <rect
@@ -4943,11 +4969,11 @@
            y="22"
            rx="2.8"
            ry="2.8"
-           id="rect17" />
+           id="rect87" />
         <path
            style="fill:#c89e6b;fill-opacity:1"
            d="M 4,46.2 C 4,47.751 5.2488,49 6.8,49 H 57.2 C 58.751,49 60,47.751 60,46.2 V 15.8 C 60,14.249 58.751,13 57.2,13 H 32 C 27.8,13 26.4,7 22.2,7 H 6.8 C 5.2488,7 4,8.2488 4,9.8"
-           id="path17" />
+           id="path87" />
         <rect
            style="opacity:0.2"
            width="56"
@@ -4956,7 +4982,7 @@
            y="20"
            rx="2.8"
            ry="2.8"
-           id="rect18" />
+           id="rect88" />
         <rect
            style="fill:#e8e8e8"
            width="48"
@@ -4965,9 +4991,9 @@
            y="16"
            rx="2.8"
            ry="2.8"
-           id="rect19" />
+           id="rect89" />
         <g
-           id="g20"
+           id="g90"
            transform="matrix(1.3999411,0,0,1.3845614,-1.5997633,-1.1528531)">
           <rect
              style="fill:#eeca8f"
@@ -4977,25 +5003,33 @@
              y="16"
              rx="2"
              ry="2"
-             id="rect20" />
+             id="rect90" />
         </g>
         <path
            style="opacity:0.1;fill:#ffffff"
            d="M 6.8008,7 C 5.2496,7 4,8.2496 4,9.8008 V 10.801 C 4,9.2496 5.2496,8 6.8008,8 H 22.199 c 4.2,0 5.601,6 9.801,6 H 57.199 C 58.75,14 60,15.25 60,16.801 v -1 C 60,14.25 58.75,13 57.199,13 H 32 C 27.8,13 26.399,7 22.199,7 Z"
-           id="path20" />
+           id="path90" />
       </g>
     </g>
   </g>
   <g
-     id="system-file-manager_48"
-     inkscape:label="sfm48"
-     transform="matrix(0.37500001,0,0,0.37500001,623.08433,493.91759)">
+     id="file-manager_48"
+     inkscape:label="fm48"
+     transform="matrix(0.37834836,0,0,0.37500001,621.09417,501.23801)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:1.35669"
+       id="rect92"
+       width="126.86721"
+       height="128"
+       x="498.76602"
+       y="619.32397"
+       ry="0" />
     <g
-       id="g24"
-       transform="matrix(1.1296655,0,0,1.1296655,-25.393873,-203.40097)">
+       id="g94"
+       transform="matrix(0.99022245,0,0,0.99022245,30.723262,-142.06602)">
       <rect
          style="opacity:0.2;fill:#000000;stroke-width:0.501362"
-         id="rect23"
+         id="rect93"
          width="112.30511"
          height="112.30511"
          x="480.16916"
@@ -5003,31 +5037,31 @@
          ry="24.065378" />
       <rect
          style="fill:#ce9f52;fill-opacity:1;stroke-width:0.501362"
-         id="rect24"
+         id="rect94"
          width="112.30511"
          height="112.30511"
          x="480.16916"
          y="777.60974"
          ry="24.065378" />
       <path
-         id="path24"
+         id="path94"
          style="opacity:0.2;fill:#ffffff;stroke-width:0.501362"
          d="m 504.23455,777.60972 c -13.33221,0 -24.06538,10.73317 -24.06538,24.06538 v 1.00272 c 0,-13.3322 10.73317,-24.06537 24.06538,-24.06537 h 64.17435 c 13.33219,0 24.06537,10.73317 24.06537,24.06537 v -1.00272 c 0,-13.33221 -10.73318,-24.06538 -24.06537,-24.06538 z"
          sodipodi:nodetypes="sscsscsss" />
     </g>
     <g
-       id="g31"
+       id="g101"
        inkscape:label="#g4142"
-       transform="matrix(0.8408786,0,0,0.8408786,527.24064,684.85652)">
+       transform="matrix(0.73708266,0,0,0.73708275,515.14199,636.54726)">
       <rect
          y="-0.071428001"
          x="0"
          height="128"
          width="128"
-         id="rect25"
+         id="rect95"
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         id="g30"
+         id="g100"
          transform="matrix(1.9285714,0,0,1.9215686,2.2857152,1.4775925)"
          style="display:inline">
         <rect
@@ -5038,11 +5072,11 @@
            y="22"
            rx="2.8"
            ry="2.8"
-           id="rect26" />
+           id="rect96" />
         <path
            style="fill:#c89e6b;fill-opacity:1"
            d="M 4,46.2 C 4,47.751 5.2488,49 6.8,49 H 57.2 C 58.751,49 60,47.751 60,46.2 V 15.8 C 60,14.249 58.751,13 57.2,13 H 32 C 27.8,13 26.4,7 22.2,7 H 6.8 C 5.2488,7 4,8.2488 4,9.8"
-           id="path26" />
+           id="path96" />
         <rect
            style="opacity:0.2"
            width="56"
@@ -5051,7 +5085,7 @@
            y="20"
            rx="2.8"
            ry="2.8"
-           id="rect27" />
+           id="rect97" />
         <rect
            style="fill:#e8e8e8"
            width="48"
@@ -5060,9 +5094,9 @@
            y="16"
            rx="2.8"
            ry="2.8"
-           id="rect28" />
+           id="rect98" />
         <g
-           id="g29"
+           id="g99"
            transform="matrix(1.3999411,0,0,1.3845614,-1.5997633,-1.1528531)">
           <rect
              style="fill:#eeca8f"
@@ -5072,25 +5106,33 @@
              y="16"
              rx="2"
              ry="2"
-             id="rect29" />
+             id="rect99" />
         </g>
         <path
            style="opacity:0.1;fill:#ffffff"
            d="M 6.8008,7 C 5.2496,7 4,8.2496 4,9.8008 V 10.801 C 4,9.2496 5.2496,8 6.8008,8 H 22.199 c 4.2,0 5.601,6 9.801,6 H 57.199 C 58.75,14 60,15.25 60,16.801 v -1 C 60,14.25 58.75,13 57.199,13 H 32 C 27.8,13 26.399,7 22.199,7 Z"
-           id="path29" />
+           id="path99" />
       </g>
     </g>
   </g>
   <g
-     id="system-file-manager_32"
-     inkscape:label="sfm32"
-     transform="matrix(0.25000001,0,0,0.25000001,739.94463,595.08304)">
+     id="file-manager_32"
+     inkscape:label="fm32"
+     transform="matrix(0.25223224,0,0,0.25000001,734.80133,605.39008)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:1.35669"
+       id="rect101"
+       width="126.86721"
+       height="128"
+       x="494.33096"
+       y="572.56091"
+       ry="0" />
     <g
-       id="g33"
-       transform="matrix(1.1296655,0,0,1.1296655,-25.69692,-206.32757)">
+       id="g103"
+       transform="matrix(0.99022245,0,0,0.99022245,26.288234,-188.82906)">
       <rect
          style="opacity:0.2;fill:#000000;stroke-width:0.501362"
-         id="rect32"
+         id="rect102"
          width="112.30511"
          height="112.30511"
          x="480.16916"
@@ -5098,31 +5140,31 @@
          ry="24.065378" />
       <rect
          style="fill:#ce9f52;fill-opacity:1;stroke-width:0.501362"
-         id="rect33"
+         id="rect103"
          width="112.30511"
          height="112.30511"
          x="480.16916"
          y="777.60974"
          ry="24.065378" />
       <path
-         id="path33"
+         id="path103"
          style="opacity:0.2;fill:#ffffff;stroke-width:0.501362"
          d="m 504.23455,777.60972 c -13.33221,0 -24.06538,10.73317 -24.06538,24.06538 v 1.00272 c 0,-13.3322 10.73317,-24.06537 24.06538,-24.06537 h 64.17435 c 13.33219,0 24.06537,10.73317 24.06537,24.06537 v -1.00272 c 0,-13.33221 -10.73318,-24.06538 -24.06537,-24.06538 z"
          sodipodi:nodetypes="sscsscsss" />
     </g>
     <g
-       id="g40"
+       id="g110"
        inkscape:label="#g4142"
-       transform="matrix(0.8408786,0,0,0.8408786,527.24064,684.85652)">
+       transform="matrix(0.73708265,0,0,0.73708272,510.70694,589.7842)">
       <rect
          y="-0.071428001"
          x="0"
          height="128"
          width="128"
-         id="rect34"
+         id="rect104"
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         id="g39"
+         id="g109"
          transform="matrix(1.9285714,0,0,1.9215686,2.2857152,1.4775925)"
          style="display:inline">
         <rect
@@ -5133,11 +5175,11 @@
            y="22"
            rx="2.8"
            ry="2.8"
-           id="rect35" />
+           id="rect105" />
         <path
            style="fill:#c89e6b;fill-opacity:1"
            d="M 4,46.2 C 4,47.751 5.2488,49 6.8,49 H 57.2 C 58.751,49 60,47.751 60,46.2 V 15.8 C 60,14.249 58.751,13 57.2,13 H 32 C 27.8,13 26.4,7 22.2,7 H 6.8 C 5.2488,7 4,8.2488 4,9.8"
-           id="path35" />
+           id="path105" />
         <rect
            style="opacity:0.2"
            width="56"
@@ -5146,7 +5188,7 @@
            y="20"
            rx="2.8"
            ry="2.8"
-           id="rect36" />
+           id="rect106" />
         <rect
            style="fill:#e8e8e8"
            width="48"
@@ -5155,9 +5197,9 @@
            y="16"
            rx="2.8"
            ry="2.8"
-           id="rect37" />
+           id="rect107" />
         <g
-           id="g38"
+           id="g108"
            transform="matrix(1.3999411,0,0,1.3845614,-1.5997633,-1.1528531)">
           <rect
              style="fill:#eeca8f"
@@ -5167,25 +5209,33 @@
              y="16"
              rx="2"
              ry="2"
-             id="rect38" />
+             id="rect108" />
         </g>
         <path
            style="opacity:0.1;fill:#ffffff"
            d="M 6.8008,7 C 5.2496,7 4,8.2496 4,9.8008 V 10.801 C 4,9.2496 5.2496,8 6.8008,8 H 22.199 c 4.2,0 5.601,6 9.801,6 H 57.199 C 58.75,14 60,15.25 60,16.801 v -1 C 60,14.25 58.75,13 57.199,13 H 32 C 27.8,13 26.399,7 22.199,7 Z"
-           id="path38" />
+           id="path108" />
       </g>
     </g>
   </g>
   <g
-     id="system-file-manager_24"
-     inkscape:label="sfm24"
-     transform="matrix(0.1875,0,0,0.1875,806.59722,643.99213)">
+     id="file-manager_24"
+     inkscape:label="fm24"
+     transform="matrix(0.18917418,0,0,0.1875,836.27562,663.23453)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:1.35669"
+       id="rect110"
+       width="126.86721"
+       height="128"
+       x="305.25177"
+       y="502.5661"
+       ry="0" />
     <g
-       id="g42"
-       transform="matrix(1.1296655,0,0,1.1296655,-25.393873,-203.40097)">
+       id="g112"
+       transform="matrix(0.99022245,0,0,0.99022245,-162.79095,-258.82392)">
       <rect
          style="opacity:0.2;fill:#000000;stroke-width:0.501362"
-         id="rect41"
+         id="rect111"
          width="112.30511"
          height="112.30511"
          x="480.16916"
@@ -5193,31 +5243,31 @@
          ry="24.065378" />
       <rect
          style="fill:#ce9f52;fill-opacity:1;stroke-width:0.501362"
-         id="rect42"
+         id="rect112"
          width="112.30511"
          height="112.30511"
          x="480.16916"
          y="777.60974"
          ry="24.065378" />
       <path
-         id="path42"
+         id="path112"
          style="opacity:0.2;fill:#ffffff;stroke-width:0.501362"
          d="m 504.23455,777.60972 c -13.33221,0 -24.06538,10.73317 -24.06538,24.06538 v 1.00272 c 0,-13.3322 10.73317,-24.06537 24.06538,-24.06537 h 64.17435 c 13.33219,0 24.06537,10.73317 24.06537,24.06537 v -1.00272 c 0,-13.33221 -10.73318,-24.06538 -24.06537,-24.06538 z"
          sodipodi:nodetypes="sscsscsss" />
     </g>
     <g
-       id="g49"
+       id="g119"
        inkscape:label="#g4142"
-       transform="matrix(0.8408786,0,0,0.8408786,527.24064,684.85652)">
+       transform="matrix(0.73708266,0,0,0.73708276,321.62777,519.78941)">
       <rect
          y="-0.071428001"
          x="0"
          height="128"
          width="128"
-         id="rect43"
+         id="rect113"
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         id="g48"
+         id="g118"
          transform="matrix(1.9285714,0,0,1.9215686,2.2857152,1.4775925)"
          style="display:inline">
         <rect
@@ -5228,11 +5278,11 @@
            y="22"
            rx="2.8"
            ry="2.8"
-           id="rect44" />
+           id="rect114" />
         <path
            style="fill:#c89e6b;fill-opacity:1"
            d="M 4,46.2 C 4,47.751 5.2488,49 6.8,49 H 57.2 C 58.751,49 60,47.751 60,46.2 V 15.8 C 60,14.249 58.751,13 57.2,13 H 32 C 27.8,13 26.4,7 22.2,7 H 6.8 C 5.2488,7 4,8.2488 4,9.8"
-           id="path44" />
+           id="path114" />
         <rect
            style="opacity:0.2"
            width="56"
@@ -5241,7 +5291,7 @@
            y="20"
            rx="2.8"
            ry="2.8"
-           id="rect45" />
+           id="rect115" />
         <rect
            style="fill:#e8e8e8"
            width="48"
@@ -5250,9 +5300,9 @@
            y="16"
            rx="2.8"
            ry="2.8"
-           id="rect46" />
+           id="rect116" />
         <g
-           id="g47"
+           id="g117"
            transform="matrix(1.3999411,0,0,1.3845614,-1.5997633,-1.1528531)">
           <rect
              style="fill:#eeca8f"
@@ -5262,25 +5312,33 @@
              y="16"
              rx="2"
              ry="2"
-             id="rect47" />
+             id="rect117" />
         </g>
         <path
            style="opacity:0.1;fill:#ffffff"
            d="M 6.8008,7 C 5.2496,7 4,8.2496 4,9.8008 V 10.801 C 4,9.2496 5.2496,8 6.8008,8 H 22.199 c 4.2,0 5.601,6 9.801,6 H 57.199 C 58.75,14 60,15.25 60,16.801 v -1 C 60,14.25 58.75,13 57.199,13 H 32 C 27.8,13 26.399,7 22.199,7 Z"
-           id="path47" />
+           id="path117" />
       </g>
     </g>
   </g>
   <g
-     id="system-file-manager_22"
-     inkscape:label="sfm22"
-     transform="matrix(0.171875,0,0,0.171875,844.28326,656.77318)">
+     id="file-manager_22"
+     inkscape:label="fm22"
+     transform="matrix(0.17340966,0,0,0.171875,860.48036,671.23808)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:1.35669"
+       id="rect119"
+       width="126.86721"
+       height="128"
+       x="361.94507"
+       y="506.61493"
+       ry="0" />
     <g
-       id="g51"
-       transform="matrix(1.1296655,0,0,1.1296655,-25.393873,-203.40097)">
+       id="g121"
+       transform="matrix(0.99022247,0,0,0.99022247,-106.09762,-254.77511)">
       <rect
          style="opacity:0.2;fill:#000000;stroke-width:0.501362"
-         id="rect50"
+         id="rect120"
          width="112.30511"
          height="112.30511"
          x="480.16916"
@@ -5288,31 +5346,31 @@
          ry="24.065378" />
       <rect
          style="fill:#ce9f52;fill-opacity:1;stroke-width:0.501362"
-         id="rect51"
+         id="rect121"
          width="112.30511"
          height="112.30511"
          x="480.16916"
          y="777.60974"
          ry="24.065378" />
       <path
-         id="path51"
+         id="path121"
          style="opacity:0.2;fill:#ffffff;stroke-width:0.501362"
          d="m 504.23455,777.60972 c -13.33221,0 -24.06538,10.73317 -24.06538,24.06538 v 1.00272 c 0,-13.3322 10.73317,-24.06537 24.06538,-24.06537 h 64.17435 c 13.33219,0 24.06537,10.73317 24.06537,24.06537 v -1.00272 c 0,-13.33221 -10.73318,-24.06538 -24.06537,-24.06538 z"
          sodipodi:nodetypes="sscsscsss" />
     </g>
     <g
-       id="g58"
+       id="g128"
        inkscape:label="#g4142"
-       transform="matrix(0.8408786,0,0,0.8408786,527.24064,684.85652)">
+       transform="matrix(0.73708269,0,0,0.73708277,378.32108,523.83822)">
       <rect
          y="-0.071428001"
          x="0"
          height="128"
          width="128"
-         id="rect52"
+         id="rect122"
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         id="g57"
+         id="g127"
          transform="matrix(1.9285714,0,0,1.9215686,2.2857152,1.4775925)"
          style="display:inline">
         <rect
@@ -5323,11 +5381,11 @@
            y="22"
            rx="2.8"
            ry="2.8"
-           id="rect53" />
+           id="rect123" />
         <path
            style="fill:#c89e6b;fill-opacity:1"
            d="M 4,46.2 C 4,47.751 5.2488,49 6.8,49 H 57.2 C 58.751,49 60,47.751 60,46.2 V 15.8 C 60,14.249 58.751,13 57.2,13 H 32 C 27.8,13 26.4,7 22.2,7 H 6.8 C 5.2488,7 4,8.2488 4,9.8"
-           id="path53" />
+           id="path123" />
         <rect
            style="opacity:0.2"
            width="56"
@@ -5336,7 +5394,7 @@
            y="20"
            rx="2.8"
            ry="2.8"
-           id="rect54" />
+           id="rect124" />
         <rect
            style="fill:#e8e8e8"
            width="48"
@@ -5345,9 +5403,9 @@
            y="16"
            rx="2.8"
            ry="2.8"
-           id="rect55" />
+           id="rect125" />
         <g
-           id="g56"
+           id="g126"
            transform="matrix(1.3999411,0,0,1.3845614,-1.5997633,-1.1528531)">
           <rect
              style="fill:#eeca8f"
@@ -5357,25 +5415,33 @@
              y="16"
              rx="2"
              ry="2"
-             id="rect56" />
+             id="rect126" />
         </g>
         <path
            style="opacity:0.1;fill:#ffffff"
            d="M 6.8008,7 C 5.2496,7 4,8.2496 4,9.8008 V 10.801 C 4,9.2496 5.2496,8 6.8008,8 H 22.199 c 4.2,0 5.601,6 9.801,6 H 57.199 C 58.75,14 60,15.25 60,16.801 v -1 C 60,14.25 58.75,13 57.199,13 H 32 C 27.8,13 26.399,7 22.199,7 Z"
-           id="path56" />
+           id="path126" />
       </g>
     </g>
   </g>
   <g
-     id="system-file-manager_16"
-     inkscape:label="sfm16"
-     transform="matrix(0.125,0,0,0.125,893.48858,694.70807)">
+     id="file-manager_16"
+     inkscape:label="fm16"
+     transform="matrix(0.12611612,0,0,0.125,884.80917,708.23633)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:1.35669"
+       id="rect128"
+       width="126.86721"
+       height="128"
+       x="509.91476"
+       y="450.2363"
+       ry="0" />
     <g
-       id="g60"
-       transform="matrix(1.1296655,0,0,1.1296655,-25.393873,-203.40097)">
+       id="g130"
+       transform="matrix(0.9902224,0,0,0.99022247,41.872114,-311.15372)">
       <rect
          style="opacity:0.2;fill:#000000;stroke-width:0.501362"
-         id="rect59"
+         id="rect129"
          width="112.30511"
          height="112.30511"
          x="480.16916"
@@ -5383,31 +5449,31 @@
          ry="24.065378" />
       <rect
          style="fill:#ce9f52;fill-opacity:1;stroke-width:0.501362"
-         id="rect60"
+         id="rect130"
          width="112.30511"
          height="112.30511"
          x="480.16916"
          y="777.60974"
          ry="24.065378" />
       <path
-         id="path60"
+         id="path130"
          style="opacity:0.2;fill:#ffffff;stroke-width:0.501362"
          d="m 504.23455,777.60972 c -13.33221,0 -24.06538,10.73317 -24.06538,24.06538 v 1.00272 c 0,-13.3322 10.73317,-24.06537 24.06538,-24.06537 h 64.17435 c 13.33219,0 24.06537,10.73317 24.06537,24.06537 v -1.00272 c 0,-13.33221 -10.73318,-24.06538 -24.06537,-24.06538 z"
          sodipodi:nodetypes="sscsscsss" />
     </g>
     <g
-       id="g67"
+       id="g137"
        inkscape:label="#g4142"
-       transform="matrix(0.8408786,0,0,0.8408786,527.24064,684.85652)">
+       transform="matrix(0.73708269,0,0,0.73708276,526.29078,467.45957)">
       <rect
          y="-0.071428001"
          x="0"
          height="128"
          width="128"
-         id="rect61"
+         id="rect131"
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         id="g66"
+         id="g136"
          transform="matrix(1.9285714,0,0,1.9215686,2.2857152,1.4775925)"
          style="display:inline">
         <rect
@@ -5418,11 +5484,11 @@
            y="22"
            rx="2.8"
            ry="2.8"
-           id="rect62" />
+           id="rect132" />
         <path
            style="fill:#c89e6b;fill-opacity:1"
            d="M 4,46.2 C 4,47.751 5.2488,49 6.8,49 H 57.2 C 58.751,49 60,47.751 60,46.2 V 15.8 C 60,14.249 58.751,13 57.2,13 H 32 C 27.8,13 26.4,7 22.2,7 H 6.8 C 5.2488,7 4,8.2488 4,9.8"
-           id="path62" />
+           id="path132" />
         <rect
            style="opacity:0.2"
            width="56"
@@ -5431,7 +5497,7 @@
            y="20"
            rx="2.8"
            ry="2.8"
-           id="rect63" />
+           id="rect133" />
         <rect
            style="fill:#e8e8e8"
            width="48"
@@ -5440,9 +5506,9 @@
            y="16"
            rx="2.8"
            ry="2.8"
-           id="rect64" />
+           id="rect134" />
         <g
-           id="g65"
+           id="g135"
            transform="matrix(1.3999411,0,0,1.3845614,-1.5997633,-1.1528531)">
           <rect
              style="fill:#eeca8f"
@@ -5452,12 +5518,12 @@
              y="16"
              rx="2"
              ry="2"
-             id="rect65" />
+             id="rect135" />
         </g>
         <path
            style="opacity:0.1;fill:#ffffff"
            d="M 6.8008,7 C 5.2496,7 4,8.2496 4,9.8008 V 10.801 C 4,9.2496 5.2496,8 6.8008,8 H 22.199 c 4.2,0 5.601,6 9.801,6 H 57.199 C 58.75,14 60,15.25 60,16.801 v -1 C 60,14.25 58.75,13 57.199,13 H 32 C 27.8,13 26.399,7 22.199,7 Z"
-           id="path65" />
+           id="path135" />
       </g>
     </g>
   </g>
