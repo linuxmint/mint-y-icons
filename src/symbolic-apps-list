@@ -35,6 +35,7 @@ accessories-media-converter.png <- oggconvert.png
 accessories-media-converter.png <- soundconverter-logo.png
 accessories-media-converter.png <- soundconverter.png
 accessories-media-converter.png <- soundkonverter.png
+accessories-painting.png <- com.github.PintaProject.Pinta.png
 accessories-painting.png <- gnome-paint.png
 accessories-painting.png <- gpaint.png
 accessories-painting.png <- gp.png
@@ -97,6 +98,7 @@ archive-manager.png <- xarchiver.png
 ardour.png <- ardour2.png
 ardour.png <- ardour5.png
 ardour.png <- ardour_icon_22px.png
+ardour.png <- org.ardour.Ardour.png
 arduino.png <- arduino-ide.png
 arduino.png <- cc.arduino.arduinoide.png
 assistant.png <- assistant-qt4.png
@@ -123,6 +125,7 @@ bitcoin.png <- bitcoin-qt.png
 bitwarden.png <- com.bitwarden.desktop.png
 blender.png <- Blender.png
 blender.png <- org.blender.Blender.png
+blender.png <- steam_icon_365670.png
 bluefish.png <- nl.openoffice.bluefish.png
 bluetooth.png <- blueman.png
 bluetooth.png <- blueradio-48.png
@@ -139,6 +142,7 @@ bootloader.png <- bum.png
 bootloader.png <- grub-customizer.png
 boxes.png <- gnome-boxes.png
 brave.png <- brave-browser.png
+brave.png <- com.brave.Browser.png
 btsync-gui.png <- bittorrentsync.png
 btsync-gui.png <- btsync-gui-gtk.png
 btsync-gui.png <- btsync-user.png
@@ -155,6 +159,7 @@ calendar.png <- preferences-calendar-and-tasks.png
 calendar.png <- xfcalendar.png
 calendar.png <- ximian-evolution-calendar.png
 calendar.png <- x-office-calendar.png
+clamav.png <- com.gitlab.davem.ClamTk.png
 calibre.png <- calibre-ebook-edit.png
 calibre.png <- calibre-gui.png
 calibre.png <- calibre-viewer.png
@@ -171,6 +176,7 @@ chess.png <- tagua.png
 chess.png <- xboard.png
 chromium.png <- chromium-browser-old.png
 chromium.png <- chromium-browser.png
+chromium.png <- com.github.Eloston.UngoogledChromium.png
 clamav.png <- clamtk.png
 clementine.png <- application-x-clementine.png
 clementine.png <- clementine-playe.png
@@ -223,6 +229,7 @@ disk-usage-analyzer.png <- serpentine.png
 dogecoin.png <- multidoge.png
 dolphin-emu.png <- org.DolphinEmu.dolphin-emu.png
 dosbox.png <- com.dosbox.DOSBox.png
+dota2.png <- steam_icon_570.png
 dropbox.png <- chrome-ioekoebejdcmnlefjiknokhhafglcjdl-Default.png
 dropbox.png <- com.dropbox.Client.png
 dropbox.png <- folder-dropbox.png
@@ -233,6 +240,7 @@ earth.png <- marble.png
 earth.png <- marble.pngap
 earth.png <- web-google-earth.png
 easytag.png <- EasyTAG_icon.png
+eclipse.png <- org.eclipse.Java.png
 ekiga.png <- im-ekiga.png
 element.png <- im.riot.Riot.png
 emacs.png <- deepin-emacs.png
@@ -266,6 +274,7 @@ firefox.png <- firefox-esr.png
 firefox.png <- firefox-gtk3.png
 firefox.png <- firefox-icon.png
 firefox.png <- firefox-original.png
+firefox.png <- org.mozilla.firefox.png
 firewall.png <- cervisia.png
 firewall.png <- firestarter.png
 firewall.png <- firewall-config.png
@@ -458,6 +467,7 @@ keepass.png <- org.keepassxc.KeePassXC.png
 kingsoft-presentation.png <- wps-office-wppmain.png
 kingsoft-spreadsheets.png <- wps-office-etmain.png
 kingsoft-writer.png <- wps-office-wpsmain.png
+kodi.png <- tv.kodi.Kodi.png
 komodo.png <- komodoedit.png
 konqueror.png <- rekonq.png
 krita.png <- calligrakrita.png
@@ -497,8 +507,10 @@ libreoffice-writer.png <- libreoffice34-writer.png
 libreoffice-writer.png <- libreoffice3-writer.png
 libreoffice-writer.png <- ooo-writer.png
 libreoffice-writer.png <- org.libreoffice.LibreOffice-writer.png
+librewolf.png <- io.gitlab.librewolf-community.png
 linguist.png <- linguist-qt4.png
 linguist.png <- QtProject-linguist.png
+lmms.png <- io.lmms.LMMS.png
 locale.png <- config-language.png
 locale.png <- cs-language.png
 locale.png <- cs-region.png
@@ -512,6 +524,7 @@ logviewer.png <- system-utilities-logviewer.png
 logviewer.png <- utilities-log-viewer.png
 lollypop.png <- org.gnome.Lollypop.png
 lutris.png <- jstest-gtk.png
+lutris.png <- net.lutris.Lutris.png
 mahjongg.png <- gnome-mahjongg.png
 mate.png <- desktop-environment-mate.png
 mathematica.png <- wolfram-mathematica.png
@@ -542,7 +555,7 @@ mono-runtime.png <- mono-runtime-common.png
 mpd.png <- cantana.png
 mplayer.png <- gnome-mplayer.png
 mplayer.png <- smplayer.png
-mpv.png <- io.github.GnomeMpv.png
+mpv.png <- io.mpv.Mpv.png
 mpv.png <- mpv-icon-8bit-64x64.png
 mscore.png <- musescore.png
 mscore.png <- org.musescore.MuseScore.png
@@ -582,6 +595,7 @@ notes.png <- xfce4-notes-plugin.png
 nvidia-settings.png <- nvidia-current-settings.png
 obconf.png <- obconf-qt.png
 obs-studio.png <- com.obsproject.Studio.png
+obisidan.png <- md.obsidian.Obsidian.png
 octave.png <- octave-icon.png
 octave.png <- octave-logo.png
 octave.png <- org.octave.Octave.png
@@ -590,6 +604,7 @@ octave.png <- qtoctave.png
 opera.png <- opera-beta.png
 opera.png <- opera-browser.png
 opera.png <- opera-developer.png
+opera.png <- com.opera.Opera.png
 owncloud.png <- goa-account-owncloud.png
 panel-applets.png <- avant-window-navigator.png
 panel-applets.png <- awn-settings.png
@@ -767,6 +782,7 @@ remote-desktop.png <- krfb.png
 remote-desktop.png <- NoMachine.png
 remote-desktop.png <- preferences-desktop-remote-desktop.png
 remote-desktop.png <- remmina.png
+remote-desktop.png <- org.remmina.Remmina.png
 retroarch.png <- org.libretro.RetroArch.png
 rhythmbox.png <- org.gnome.Rhythmbox3.png
 rhythmbox.png <- org.gnome.Rhythmbox.png
@@ -915,8 +931,10 @@ utilities-terminal.png <- xfce-terminal.png
 vala.png <- valama.png
 varicad.png <- varicad-viewer.png
 video-editor.png <- avidemux.png
+video-editor.png <- org.avidemux.Avidemux.png
 video-editor.png <- kaffeine.png
 video-editor.png <- kdenlive.png
+video-editor.png <- org.kde.kdenlive.png
 video-editor.png <- org.pitivi.Pitivi.png
 video-editor.png <- pitivi.png
 vim.png <- gvim.png
@@ -926,6 +944,7 @@ virtman.png <- virt-manager.png
 virtualbox.png <- VBox.png
 virtualbox.png <- virtualbox-ose.png
 visual-studio-code.png <- com.visualstudio.code.png
+visual-studio-code.png <- vscode.png
 vlc.png <- org.videolan.VLC.png
 vmplayer.png <- vmware-player.png
 vmware.png <- vmware-workstation.png
@@ -1138,6 +1157,7 @@ web-spotify.png <- spotify.png
 web-telegram.png <- chrome-clhhggbfdinjmjhajaheehoeibfljjno-Default.png
 web-telegram.png <- org.telegram.desktop.png
 web-telegram.png <- unity-webapps-telegram.png
+web-telegram.png <- telegram-desktop.png
 web-trello.png <- chrome-oflhioojkbelepjlnafgmgkkjhojphcg-Default.png
 web-trello.png <- trello.png
 web-tumblr.png <- Tumblr-tumblr.com.png
@@ -1209,6 +1229,7 @@ xterm.png <- xterm-color_32x32.png
 xterm.png <- xterm-color_48x48.png
 xterm.png <- xterm-color.png
 yast.png <- yast2.png
+zotero.png <- org.zotero.Zotero.png
 zsnes.png <- com.snes9x.Snes9x.png
 zsnes.png <- snes9x-gtk.png
 zsnes.png <- snes9x.png
