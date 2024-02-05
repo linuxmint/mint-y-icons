@@ -97,6 +97,7 @@ archive-manager.png <- xarchiver.png
 ardour.png <- ardour2.png
 ardour.png <- ardour5.png
 ardour.png <- ardour_icon_22px.png
+ardour.png <- org.ardour.Ardour.png
 arduino.png <- arduino-ide.png
 arduino.png <- cc.arduino.arduinoide.png
 assistant.png <- assistant-qt4.png
@@ -139,6 +140,7 @@ bootloader.png <- bum.png
 bootloader.png <- grub-customizer.png
 boxes.png <- gnome-boxes.png
 brave.png <- brave-browser.png
+brave.png <- com.brave.Browser.png
 btsync-gui.png <- bittorrentsync.png
 btsync-gui.png <- btsync-gui-gtk.png
 btsync-gui.png <- btsync-user.png
@@ -171,6 +173,7 @@ chess.png <- tagua.png
 chess.png <- xboard.png
 chromium.png <- chromium-browser-old.png
 chromium.png <- chromium-browser.png
+chromium.png <- com.github.Eloston.UngoogledChromium.png
 clamav.png <- clamtk.png
 clementine.png <- application-x-clementine.png
 clementine.png <- clementine-playe.png
@@ -265,6 +268,7 @@ firefox.png <- firefox-esr.png
 firefox.png <- firefox-gtk3.png
 firefox.png <- firefox-icon.png
 firefox.png <- firefox-original.png
+firefox.png <- org.mozilla.firefox.png
 firewall.png <- cervisia.png
 firewall.png <- firestarter.png
 firewall.png <- firewall-config.png
@@ -496,8 +500,10 @@ libreoffice-writer.png <- libreoffice34-writer.png
 libreoffice-writer.png <- libreoffice3-writer.png
 libreoffice-writer.png <- ooo-writer.png
 libreoffice-writer.png <- org.libreoffice.LibreOffice-writer.png
+librewolf.png <- io.gitlab.librewolf-community.png
 linguist.png <- linguist-qt4.png
 linguist.png <- QtProject-linguist.png
+lmms.png <- io.lmms.LMMS.png
 locale.png <- config-language.png
 locale.png <- cs-language.png
 locale.png <- cs-region.png
@@ -541,7 +547,7 @@ mono-runtime.png <- mono-runtime-common.png
 mpd.png <- cantana.png
 mplayer.png <- gnome-mplayer.png
 mplayer.png <- smplayer.png
-mpv.png <- io.github.GnomeMpv.png
+mpv.png <- io.mpv.Mpv.png
 mpv.png <- mpv-icon-8bit-64x64.png
 mscore.png <- musescore.png
 mscore.png <- org.musescore.MuseScore.png
@@ -581,6 +587,7 @@ notes.png <- xfce4-notes-plugin.png
 nvidia-settings.png <- nvidia-current-settings.png
 obconf.png <- obconf-qt.png
 obs-studio.png <- com.obsproject.Studio.png
+obisidan.png <- md.obsidian.Obsidian.png
 octave.png <- octave-icon.png
 octave.png <- octave-logo.png
 octave.png <- org.octave.Octave.png
@@ -766,6 +773,7 @@ remote-desktop.png <- krfb.png
 remote-desktop.png <- NoMachine.png
 remote-desktop.png <- preferences-desktop-remote-desktop.png
 remote-desktop.png <- remmina.png
+remote-desktop.png <- org.remmina.Remmina.png
 retroarch.png <- org.libretro.RetroArch.png
 rhythmbox.png <- org.gnome.Rhythmbox3.png
 rhythmbox.png <- org.gnome.Rhythmbox.png
@@ -914,8 +922,10 @@ utilities-terminal.png <- xfce-terminal.png
 vala.png <- valama.png
 varicad.png <- varicad-viewer.png
 video-editor.png <- avidemux.png
+video-editor.png <- org.avidemux.Avidemux.png
 video-editor.png <- kaffeine.png
 video-editor.png <- kdenlive.png
+video-editor.png <- org.kde.kdenlive.png
 video-editor.png <- org.pitivi.Pitivi.png
 video-editor.png <- pitivi.png
 vim.png <- gvim.png
@@ -925,6 +935,7 @@ virtman.png <- virt-manager.png
 virtualbox.png <- VBox.png
 virtualbox.png <- virtualbox-ose.png
 visual-studio-code.png <- com.visualstudio.code.png
+visual-studio-code.png <- vscode.png
 vlc.png <- org.videolan.VLC.png
 vmplayer.png <- vmware-player.png
 vmware.png <- vmware-workstation.png
