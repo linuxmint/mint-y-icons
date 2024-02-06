@@ -21,6 +21,8 @@ def check_symbolic_links_list():
                 CHECK_DIR = SRC_DIR
                 if sys.argv[1] == "mimetypes":
                     CHECK_DIR += "/64"
+                if sys.argv[1] == "emblems":
+                    CHECK_DIR += "/32"
                 if not os.path.exists(os.path.join(CHECK_DIR, target_svg)):
                     print(target_svg + " does not exist (line " + str(line_no) + ")")
                     #pass
@@ -45,6 +47,7 @@ if __name__ == "__main__":
         print("Pass argument: ")
         print("    apps")
         print("    categories")
+        print("    emblems")
         print("    mimetypes")
         print(" ")
         print("    show-deadlinks")
@@ -52,7 +55,7 @@ if __name__ == "__main__":
         print("    delete-symbolic-apps")
         print("    delete-symbolic-categories")
     else:
-        if sys.argv[1] in ["apps", "categories", "mimetypes"]:
+        if sys.argv[1] in ["apps", "categories", "mimetypes", "emblems"]:
             SYMBOLIC_APPS_FILE = os.path.join(os.getcwd(), "symbolic-" + sys.argv[1] + "-list")
             SRC_DIR = os.path.join(os.getcwd(), sys.argv[1])
             APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y", sys.argv[1])
@@ -75,6 +78,7 @@ if __name__ == "__main__":
             print("Wrong argument! Valid arguments are:")
             print("    apps")
             print("    categories")
+            print("    emblems")
             print("    mimetypes")
             print(" ")
             print("    show-deadlinks")
