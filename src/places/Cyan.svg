@@ -965,13 +965,13 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter4170"
-       x="-0.0011896842"
-       y="-0.0011736817"
-       width="1.0023794"
-       height="1.0023474">
+       x="-0.001161035"
+       y="-0.0011454178"
+       width="1.0023221"
+       height="1.0022908">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.056596675"
+         stdDeviation="0.055233751"
          id="feGaussianBlur4172" />
     </filter>
   </defs>
@@ -988,9 +988,9 @@
      inkscape:window-height="900"
      id="namedview4"
      showgrid="true"
-     inkscape:zoom="1.4893525"
-     inkscape:cx="725.48307"
-     inkscape:cy="692.24715"
+     inkscape:zoom="26.544967"
+     inkscape:cx="961.27451"
+     inkscape:cy="770.20251"
      inkscape:window-x="0"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
@@ -4727,14 +4727,13 @@
            id="g2"
            transform="matrix(1.006314,0,0,1.0160254,40.953603,-106.8699)">
           <rect
-             style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:0.47;stroke-width:0.513172;filter:url(#filter4170)"
+             style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:0.47;stroke-width:0.515837"
              id="rect2483"
-             width="114.17485"
-             height="115.73157"
-             x="479.28195"
-             y="776.14301"
-             ry="24.799618"
-             transform="matrix(0.99829951,0,0,0.98420088,0.81478465,13.13158)" />
+             width="115.53197"
+             height="115.56288"
+             x="478.44882"
+             y="776.29474"
+             ry="24.763474" />
           <rect
              style="opacity:0.2;fill:#000000;stroke-width:0.501362"
              id="rect651"
@@ -4855,7 +4854,7 @@
              x="479.28195"
              y="776.14301"
              ry="24.799618"
-             transform="matrix(0.99829951,0,0,0.98420088,0.81478465,13.13158)" />
+             transform="matrix(1.0117712,0,0,1.0006163,-6.5089579,-0.29183956)" />
           <rect
              style="opacity:0.2;fill:#000000;stroke-width:0.501362"
              id="rect2768"
@@ -4976,7 +4975,7 @@
              x="479.28195"
              y="776.14301"
              ry="24.799618"
-             transform="matrix(0.99829951,0,0,0.98420088,0.81478465,13.13158)" />
+             transform="matrix(1.013158,0,0,0.99944281,-7.3531508,0.6448131)" />
           <rect
              style="opacity:0.2;fill:#000000;stroke-width:0.501362"
              id="rect2825"
@@ -5097,7 +5096,7 @@
              x="479.28195"
              y="776.14301"
              ry="24.799618"
-             transform="matrix(0.99829951,0,0,0.98420088,0.81478465,13.13158)" />
+             transform="matrix(1.0076452,0,0,0.99599766,-4.195852,3.2442542)" />
           <rect
              style="opacity:0.2;fill:#000000;stroke-width:0.501362"
              id="rect6785"
@@ -5218,7 +5217,7 @@
              x="479.28195"
              y="776.14301"
              ry="24.799618"
-             transform="matrix(0.99829951,0,0,0.98420088,0.81478465,13.13158)" />
+             transform="matrix(1.0118303,0,0,1.0003045,-6.6363922,-0.10088506)" />
           <rect
              style="opacity:0.2;fill:#000000;stroke-width:0.501362"
              id="rect6842"
@@ -5320,14 +5319,15 @@
        id="rect6876"
        width="126.86722"
        height="128"
-       x="516.70599"
-       y="674.56653"
+       x="517.97186"
+       y="680.59534"
        ry="0" />
     <g
-       id="g6910">
+       id="g6910"
+       transform="matrix(1.075,0,0,1.075,-37.127038,-44.418916)">
       <g
          id="g6908"
-         transform="translate(-0.47209604,-1.8919379)">
+         transform="matrix(0.91954125,0,0,0.91954125,41.617891,53.017813)">
         <g
            id="g6886"
            transform="matrix(1.006314,0,0,1.0160254,40.953603,-106.8699)">
@@ -5339,7 +5339,7 @@
              x="479.28195"
              y="776.14301"
              ry="24.799618"
-             transform="matrix(0.99829951,0,0,0.98420088,0.81478465,13.13158)" />
+             transform="matrix(1.0097273,0,0,0.99919896,-5.3134251,0.79786701)" />
           <rect
              style="opacity:0.2;fill:#000000;stroke-width:0.501362"
              id="rect6880"
@@ -5445,7 +5445,8 @@
        y="674.56653"
        ry="0" />
     <g
-       id="g6986">
+       id="g6986"
+       transform="matrix(1.0532927,0,0,1.0532927,-30.459836,-39.060438)">
       <g
          id="g6984"
          transform="translate(-0.47209604,-1.8919379)">
@@ -5460,7 +5461,7 @@
              x="479.28195"
              y="776.14301"
              ry="24.799618"
-             transform="matrix(0.99829951,0,0,0.98420088,0.81478465,13.13158)" />
+             transform="matrix(1.0085788,0,0,0.99729173,-4.8053264,2.2148643)" />
           <rect
              style="opacity:0.2;fill:#000000;stroke-width:0.501362"
              id="rect6956"
@@ -5555,7 +5556,7 @@
   <g
      id="system-file-manager_16"
      inkscape:label="fm16"
-     transform="matrix(0.12611611,0,0,0.125,888.33842,679.42086)"
+     transform="matrix(0.12611611,0,0,0.125,888.50262,678.5091)"
      style="display:inline">
     <rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.35669"
@@ -5566,7 +5567,8 @@
        y="674.56653"
        ry="0" />
     <g
-       id="g7062">
+       id="g7062"
+       transform="matrix(1.1034472,0,0,1.1034472,-60.66418,-76.291318)">
       <g
          id="g7060"
          transform="translate(-0.47209604,-1.8919379)">
@@ -5581,7 +5583,7 @@
              x="479.28195"
              y="776.14301"
              ry="24.799618"
-             transform="matrix(0.99829951,0,0,0.98420088,0.81478465,13.13158)" />
+             transform="matrix(1.0147098,0,0,1.0022489,-8.28891,-1.712059)" />
           <rect
              style="opacity:0.2;fill:#000000;stroke-width:0.501362"
              id="rect7032"
