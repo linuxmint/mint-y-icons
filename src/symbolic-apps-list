@@ -701,7 +701,6 @@ notes.png <- xfce4-notes-plugin.png
 nvidia-settings.png <- nvidia-current-settings.png
 obconf.png <- obconf-qt.png
 obs-studio.png <- com.obsproject.Studio.png
-obs-studio.png <- com.obsproject.Studio.png
 obsidian.png <- md.obsidian.Obsidian.png
 octave.png <- octave-icon.png
 octave.png <- octave-logo.png
@@ -716,6 +715,7 @@ opera.png <- com.opera.Opera.png
 opera.png <- opera-beta.png
 opera.png <- opera-browser.png
 opera.png <- opera-developer.png
+opera.png <- com.opera.Opera.png
 owncloud.png <- goa-account-owncloud.png
 panel-applets.png <- avant-window-navigator.png
 panel-applets.png <- awn-settings.png
@@ -1076,9 +1076,9 @@ vala.png <- org.freedesktop.Sdk.Extension.vala.png
 vala.png <- valama.png
 varicad.png <- varicad-viewer.png
 video-editor.png <- avidemux.png
+video-editor.png <- org.avidemux.Avidemux.png
 video-editor.png <- kaffeine.png
 video-editor.png <- kdenlive.png
-video-editor.png <- org.avidemux.Avidemux.png
 video-editor.png <- org.kde.kdenlive.png
 video-editor.png <- org.pitivi.Pitivi.png
 video-editor.png <- pitivi.png
@@ -1310,6 +1310,7 @@ web-telegram.png <- chrome-clhhggbfdinjmjhajaheehoeibfljjno-Default.png
 web-telegram.png <- org.telegram.desktop.png
 web-telegram.png <- telegram-desktop.png
 web-telegram.png <- unity-webapps-telegram.png
+web-telegram.png <- telegram-desktop.png
 web-trello.png <- chrome-oflhioojkbelepjlnafgmgkkjhojphcg-Default.png
 web-trello.png <- trello.png
 web-tumblr.png <- Tumblr-tumblr.com.png
