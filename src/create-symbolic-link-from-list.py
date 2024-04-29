@@ -8,6 +8,17 @@ MINTY_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons")
 DEADLINK_DIR = os.path.join(os.getcwd(), "..")
 
 def check_symbolic_links_list():
+    # Read the file and sort and de-duplicate the contents
+    with open(SYMBOLIC_APPS_FILE, "r") as symbolic_apps_file:
+        symbolic_links = set(symbolic_apps_file.readlines())
+        sorted_symbolic_links = sorted(symbolic_links)
+
+    # Write the sorted and de-duplicated content back to the file
+    with open(SYMBOLIC_APPS_FILE, "w") as symbolic_apps_file:
+        for link in sorted_symbolic_links:
+            symbolic_apps_file.write(link.strip() + "\n")
+
+    # Process each line to create symbolic links
     with open(SYMBOLIC_APPS_FILE, "r") as symbolic_apps_file:
         line_no = 0
         for symbolic_link_ref in symbolic_apps_file:
