@@ -242,6 +242,8 @@ earth.png <- web-google-earth.png
 easytag.png <- EasyTAG_icon.png
 eclipse.png <- org.eclipse.Java.png
 ekiga.png <- im-ekiga.png
+element.png <- Element-app.element.io.png
+element.png <- Element-element.io.png
 element.png <- im.riot.Riot.png
 emacs.png <- deepin-emacs.png
 emacs.png <- emacs23.png
@@ -342,7 +344,7 @@ gnome-tali.png <- gnubg.png
 gnome-tali.png <- tali.png
 gnome-tetravex.png <- org.gnome.tetravex.png
 gnome-todo.png <- org.gnome.Todo.png
-gnome-tweaks.png <- org.gnome.tweaks.png
+gnome-tweak-tool.png <- org.gnome.tweaks.png
 gnome-weather.png <- my-weather-indicator.png
 gnome-weather.png <- org.gnome.Weather.Application.png
 gnome-weather.png <- org.gnome.Weather.png
@@ -592,7 +594,7 @@ notes.png <- xfce4-notes-plugin.png
 nvidia-settings.png <- nvidia-current-settings.png
 obconf.png <- obconf-qt.png
 obs-studio.png <- com.obsproject.Studio.png
-obisidan.png <- md.obsidian.Obsidian.png
+obsidian.png <- md.obsidian.Obsidian.png
 octave.png <- octave-icon.png
 octave.png <- octave-logo.png
 octave.png <- org.octave.Octave.png
@@ -611,6 +613,9 @@ panel.png <- gnome-panel.png
 panel.png <- mate-panel.png
 panel.png <- simple-scan.png
 panel.png <- tint2conf.png
+parsec.png <- parsecd.png
+parsec.png <- Parsec-parsec.app.png
+parsec.png <- Parsec-web.parsec.app.png
 passwords.png <- 1password.png
 passwords.png <- gnome-encfs-manager.png
 passwords.png <- org.gnome.seahorse.Application.png
@@ -784,6 +789,10 @@ remote-desktop.png <- preferences-desktop-remote-desktop.png
 remote-desktop.png <- remmina.png
 remote-desktop.png <- org.remmina.Remmina.png
 retroarch.png <- org.libretro.RetroArch.png
+revolt.png <- chat.revolt.RevoltDesktop.png
+revolt.png <- Revolt.png
+revolt.png <- Revolt-app.revolt.chat.png
+revolt.png <- Revolt-revolt.chat.png
 rhythmbox.png <- org.gnome.Rhythmbox3.png
 rhythmbox.png <- org.gnome.Rhythmbox.png
 rygel.png <- steam_icon_570.png
@@ -803,6 +812,8 @@ session-properties.png <- preferences-system-session.png
 session-properties.png <- preferences-system-session-services.png
 session-properties.png <- system-config-services.png
 session-properties.png <- xfce4-session.png
+signal.png <- org.signal.Signal.png
+signal.png <- signal-desktop.png
 sketchup.png <- devassistant.png
 skype.png <- com.skype.Client.png
 skype.png <- skypeforlinux.png
@@ -1035,6 +1046,7 @@ web-google-maps.png <- chrome-lneaknkopdijkpnocmklfnjbeapigfbh-Default.png
 web-google-maps.png <- gnome-maps.png
 web-google-maps.png <- maps.png
 web-google-maps.png <- org.gnome.Maps.png
+web-google-meet.png <- GoogleMeet-meet.google.com.png
 web-google-photos.png <- chrome-efjnaogkjbogokcnohkmnjdojkikgobo-Default.png
 web-google-play-books.png <- chrome-mmimngoggfoobjdlefbcabngfnmieonb-Default.png
 web-google-play-movies.png <- chrome-fppdphmgcddhjeddoeghpjefkdlccljb-Default.png
@@ -1133,6 +1145,12 @@ web-pocket.png <- chrome-niloccemoadcdkdjlinkgdfekeahmflj-Default.png
 web-pocket.png <- goa-account-pocket.png
 web-pocket.png <- Pocket-getpocket.com.png
 web-pocket.png <- unity-webapps-pocket.png
+web-pixiv.png <- Pixiv-pixiv.net.png
+web-pixiv.png <- Pixiv-www.pixiv.net.png
+web-proton.png <- Proton-proton.me.png
+web-proton-calendar.png <- ProtonCalendar-calendar.proton.me.png
+web-proton-drive.png <- ProtonDrive-drive.proton.me.png
+web-proton-mail.png <- ProtonMail-mail.proton.me.png
 web-rdio.png <- aqualung.png
 web-rdio.png <- chrome-pchjhmiapbbphflbgejhigbmfmmgbngn-Default.png
 web-rdio.png <- Rdio-www.rdio.com.png
@@ -1140,7 +1158,6 @@ web-rdio.png <- unity-webapps-rdio.png
 web-reddit.png <- Reddit-pay.reddit.com.png
 web-reddit.png <- Reddit-reddit.com.png
 web-reddit.png <- unity-webapps-reddit.png
-web-signal.png <- org.signal.Signal.png
 web-slack.png <- chrome-jeogkiiogjbmhklcnbgkdcjoioegiknm-Default.png
 web-slack.png <- com.slack.Slack.png
 web-soundcloud.png <- chrome-ipebkipbeggmmkjjljenoblnfaenambp-Default.png
@@ -1158,6 +1175,8 @@ web-telegram.png <- telegram-desktop.png
 web-trello.png <- chrome-oflhioojkbelepjlnafgmgkkjhojphcg-Default.png
 web-trello.png <- trello.png
 web-tumblr.png <- Tumblr-tumblr.com.png
+web-twitch.png <- Twitch.png
+web-twitch.png <- Twitch-twitch.tv.png
 web-twitter.png <- goa-account-twitter.png
 web-twitter.png <- gtwitter.png
 web-twitter.png <- twitter.png
