@@ -1,3 +1,72 @@
+mint-y-icons (1.7.6) wilma; urgency=medium
+
+  [ CZmisaCZ ]
+  * Add Vesktop icon (#403)
+  * symlinks: Add im.riot.Riot
+  * symlinks: Add ro.go.hmlendea.DL-Desktop.png
+  * symlinks: Add whatsapp links
+
+  [ Sakii ]
+  * symlinks: Add missing icons
+
+  [ CZmisaCZ ]
+  * Add Zoom icon (#409)
+  * Add PrusaSlicer icons (#402)
+
+  [ Clement Lefebvre ]
+  * Remove geary
+  * Remove lollypop
+  * Remove pitivi
+  * Remove uberwriter
+
+  [ Hokiper ]
+  * Update icons of some applications
+  * Add new icons of some applications
+  * Update VLC icon
+  * Add Pixelfed icon
+  * Add Pixiv icon
+
+  [ user ]
+  * Add Kotlin icon
+  * Update Avast icon
+
+  [ Hokiper ]
+  * Add Parsec icon
+  * Add Matrix icon
+  * Remove "web-" prefix from the Signal icon (app has no web client)
+  * Add symbolic links for the Signal desktop app
+  * Update Element icon
+  * Add the symbolic links of the new icons to the symbolic-apps-list
+
+  [ Clement Lefebvre ]
+  * Fix symlink for gnome-tweak-tool
+  * Fix symlink for obsidian
+  * Generate missing symlinks
+
+  [ PHPeon ]
+  * Update mendeley icon
+
+  [ CZmisaCZ ]
+  * Add Floorp icon (#410)
+  * Add Mega icon (#411)
+  * Add Draw.io icon (#412)
+  * Add Onlyoffice icon (#415)
+
+  [ Hokiper ]
+  * Remove Kotlin app icon and add a mimetype icon instead (#419)
+
+  [ CZmisaCZ ]
+  * Add Openspades icon (#414)
+  * Add missing flatpak icons + sorted symbolic-apps-list (#408)
+
+  [ PHPeon ]
+  * 4 icons Tidal Deezer Vimeo and Gog (#421)
+
+  [ Hokiper ]
+  * Add X icon (#422)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 16 Jun 2024 12:22:21 +0100
+
 mint-y-icons (1.7.5) wilma; urgency=medium
 
   * Add mintchat
