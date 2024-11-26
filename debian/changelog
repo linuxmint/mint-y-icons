@@ -1,3 +1,33 @@
+mint-y-icons (1.7.8) xia; urgency=medium
+
+  [ user ]
+  * Add symbolic links for the Proton VPN desktop app
+  * Add Proton Pass icon
+
+  [ MrReplikant ]
+  * Create org.xfce.terminalemulator.png
+  * add org.xfce.terminalemulator symlink
+  * Fixed more XFCE symlinks
+
+  [ Hokiper ]
+  * Update Firefox and Firefox Nightly icons (#431)
+
+  [ Clement Lefebvre ]
+  * Add aptkit
+
+  [ Sakii ]
+  * Add EasyEffects (#435)
+
+  [ Hokiper ]
+  * Update Patreon icon (#446)
+  * Add FreeCAD icon (#447)
+
+  [ Francesco Saltori ]
+  * Add missing mkvtoolnix-gui symlink and remove gnome-builder symlink (#439)
+  * Fix LibreOffice icon symlinks for Flatpak (#438)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 26 Nov 2024 11:58:39 +0000
+
 mint-y-icons (1.7.7) wilma; urgency=medium
 
   [ Michael Webster ]
