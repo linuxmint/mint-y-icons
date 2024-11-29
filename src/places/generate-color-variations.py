@@ -12,7 +12,7 @@ VARIANTS.append({"name":"Blue","folder":"5294e2","backfolder":"4877b1","paper":"
 VARIANTS.append({"name":"Aqua","folder":"57b8ec","backfolder":"147eb8","paper":"e4e4e4","emblem":"106796"})
 VARIANTS.append({"name":"Teal","folder":"45abb7","backfolder":"35818a","paper":"e4e4e4","emblem":"eaeaea"})
 VARIANTS.append({"name":"Green","folder":"50c16f","backfolder":"1f953f","paper":"e4e4e4","emblem":"2f3e1f"})
-VARIANTS.append({"name":"Sand","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","emblem":"4a4a4a"})
+VARIANTS.append({"name":"Sand","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","emblem":"55524c"})
 VARIANTS.append({"name":"Grey","folder":"aaaaaa","backfolder":"727272","paper":"ffffff","emblem":"4f4f4f"})
 VARIANTS.append({"name":"Orange","folder":"ff804f","backfolder":"f2632a","paper":"e4e4e4","emblem":"4a4a4a"})
 VARIANTS.append({"name": "Red","folder":"f54f54","backfolder":"ca0f14","paper":"e4e4e4","emblem":"4d1c1c"})
