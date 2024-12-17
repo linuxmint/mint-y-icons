@@ -1,3 +1,20 @@
+mint-y-icons (1.8.0) xia; urgency=medium
+
+  [ Hokiper ]
+  * Update Visual Studio Code and Visual Studio Code Insiders icons (#448)
+  * Fix broken links (#449)
+  * Add Scratch and Notion icons (#451)
+  * Fix render-mimetypes.py (#453)
+
+  [ Marcos Sánchez ]
+  * night light icon
+
+  [ Clement Lefebvre ]
+  * Generate cs-nightlight icons
+  * Add .gitignore
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 17 Dec 2024 13:28:17 +0000
+
 mint-y-icons (1.7.9) xia; urgency=medium
 
   * Mint-Y-Sand: Soften place emblems a little bit
