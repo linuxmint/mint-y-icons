@@ -15,8 +15,8 @@ for size in [16, 24, 32, 48, 64, 128]:
 
         if not os.path.exists(dest_file):
             print ("Rendering %s" % dest_file)
-            os.system("inkscape --export-png=%s -f %s >/dev/null && optipng -o7 --quiet %s" % (dest_file, source_file, dest_file))
+            os.system("inkscape %s --export-filename=%s >/dev/null && optipng -o7 --quiet %s" % (source_file, dest_file , dest_file))
 
         if not os.path.exists(dest2x_file):
             print ("Rendering %s" % dest2x_file)
-            os.system("inkscape --export-dpi=192 --export-png=%s -f %s >/dev/null && optipng -o7 --quiet %s" % (dest2x_file, source_file, dest2x_file))
+            os.system("inkscape %s --export-filename=%s --export-dpi=192 >/dev/null && optipng -o7 --quiet %s" % (source_file, dest2x_file, dest2x_file))
