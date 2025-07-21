@@ -1,3 +1,53 @@
+mint-y-icons (1.8.4) zara; urgency=medium
+
+  [ Hokiper ]
+  * Update Rumble icon and add its symbolic links (#456)
+  * Fix Sublime Merge icon (#457)
+
+  [ Adrien ]
+  * Add Sober icon (#455)
+
+  [ Hokiper ]
+  * Add Pleroma icon (#461)
+  * Update Pixiv icon (#459)
+  * Add missing links for Telegram and Wine Help (#460)
+
+  [ Archisman Panigrahi ]
+  * add new icon name for typhoon (#467)
+
+  [ Yassin ]
+  * update ktorrent (#472)
+
+  [ Marcos Sánchez ]
+  * simplified cs-nightlight icon (#470)
+
+  [ Hokiper ]
+  * Update Google Wallet icon (#484)
+  * Update Google Photos icon (#480)
+  * Update Google Maps icon (#481)
+  * Update Google Play icon (#482)
+
+  [ iamdtms ]
+  * Icon request: Elk (#483)
+
+  [ Hokiper ]
+  * Update Signal icon (#493)
+  * Update Battle.net icon and add its symbolic link for Wine (#486)
+
+  [ Antonio Fernandez ]
+  * web-google-chat (#466)
+
+  [ Yassin ]
+  * Outdated icon: Android Studio (#474)
+
+  [ Hokiper ]
+  * Update MuseScore icon (#485)
+
+  [ EN ]
+  * 4 new icons (#487)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 21 Jul 2025 14:15:31 +0200
+
 mint-y-icons (1.8.3) xia; urgency=medium
 
   * legacy: Add gtk-find
