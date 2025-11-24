@@ -1,3 +1,36 @@
+mint-y-icons (1.8.9) zena; urgency=medium
+
+  [ poppy ribbon ]
+  * design icon for Tenacity audio editor (#496)
+
+  [ Hokiper ]
+  * Add symbolic link for Code - OSS (#502)
+
+  [ poppy ribbon ]
+  * update Godot game engine icon (#507)
+
+  [ Hokiper ]
+  * Fix incorrect linkings of the Terminal icon in symbolic-apps-list (#503)
+
+  [ poppy ribbon ]
+  * update FontForge icon (#512)
+
+  [ Hokiper ]
+  * Add Teams icon (#513)
+  * Add GnuCash system package symbolic link (#522)
+
+  [ Clement Lefebvre ]
+  * Add icon for mintgit
+  * Add icon for mintsystadm
+
+  [ Hokiper ]
+  * Add Apache icon and a symbolic link for Apache JMeter (#519)
+
+  [ Sakii ]
+  * add onlyoffice symlinks (#520)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 24 Nov 2025 14:31:24 +0000
+
 mint-y-icons (1.8.8) gigi; urgency=medium
 
   * Add process-working-symbolic.svg
