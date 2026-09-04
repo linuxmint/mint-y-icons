@@ -1,3 +1,42 @@
+mint-y-icons (1.9.3) alfa; urgency=medium
+
+  [ SpeeQz1 ]
+  * Modified ms-edge.svg to match newer version. (#526)
+
+  [ Benjamin Pryor ]
+  * Add CopyQ icon (#528)
+  * Update YouTube Icons (#530)
+  * Add FreeFileSync icons (#531)
+  * Add REAPER icon (#532)
+
+  [ 마리임 ]
+  * added lunar_client icons (#538)
+
+  [ Hokiper ]
+  * Add DaVinci Resolve symbolic link (#540)
+  * Add Google Gemini icon (#541)
+
+  [ Mosnar23 ]
+  * Added symlinks for spotify-launcher and vesktop (#542)
+
+  [ 1ukeman ]
+  * Add icon for Counter-Strike 2 (#548)
+
+  [ Benjamin Pryor ]
+  * Add Prism Launcher icon (#558)
+
+  [ Hokiper ]
+  * Update VirtualBox icon (#563)
+  * Update Google Drive icon (#564)
+  * Update Google Gmail icon (#565)
+  * Update Google Photos icon (#566)
+
+  [ Clement Lefebvre ]
+  * Add xepub
+  * Add clockenstein-calendar
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 04 Sep 2026 16:46:19 +0100
+
 mint-y-icons (1.9.2) alfa; urgency=medium
 
   * Update icons used in GTK file picker to match XSI
