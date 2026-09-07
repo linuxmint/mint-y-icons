@@ -216,14 +216,17 @@ codeblocks.png <- org.codeblocks.codeblocks.png
 colorhug-ccmx.png <- steam_icon_8870.png
 colorhug-flash.png <- steam_icon_209790.png
 comix.png <- mcomix.png
+copyq.png <- com.github.hluk.copyq.png
 corebird.png <- org.baedert.corebird.png
 counter-strike.png <- steam_icon_240.png
+counter-strike-2.png <- steam_icon_730.png
 cudatext.png <- cudatext-512.png
 cutecom.png <- com.gitlab.cutecom.cutecom.png
 d-feet.png <- d-feet-icon.png
 darktable.png <- darktable-2.png
 darktable.png <- org.darktable.Darktable.png
 dart.png <- dart-editor.png
+davinci-resolve.png <- DV_Resolve.png
 dconf-editor.png <- ca.desrt.dconf-editor.png
 dconf-editor.png <- gconf-editor.png
 deja-dup.png <- luckybackup.png
@@ -238,6 +241,7 @@ desktop-environment-xfce.png <- xfce4-panel-menu.png
 desktop-environment-xfce.png <- xfce4-panel.png
 desktop-magnifier.png <- kmag.png
 desktop-tweaks.png <- wmtweaks.png
+dev.vencord.Vesktop.png <- vesktop.png
 devhelp.png <- org.gnome.Devhelp.png
 digikam.png <- photolayoutseditor.png
 direct-connect.png <- linuxdcpp.png
@@ -342,6 +346,8 @@ franz.png <- com.meetfranz.Franz.png
 franz.png <- io.defn.Franz.png
 freecad.png <- org.freecad.FreeCAD.png
 freecad.png <- org.freecadweb.FreeCAD.png
+freefilesync.png <- FreeFileSync.png
+freefilesync.png <- org.freefilesync.FreeFileSync.png
 freemind.png <- vym.png
 frozen-bubble.png <- org.frozen_bubble.frozen-bubble.png
 gajim.png <- org.gajim.Gajim.png
@@ -616,6 +622,10 @@ logviewer.png <- logview.png
 logviewer.png <- org.gnome.Logs.png
 logviewer.png <- system-utilities-logviewer.png
 logviewer.png <- utilities-log-viewer.png
+lunar_client.png <- Lunar_Client.png
+lunar_client.png <- appimagekit-lunarclient.png
+lunar_client.png <- com.lunarclient.LunarClient.png
+lunar_client.png <- lunarclient.png
 lutris.png <- jstest-gtk.png
 lutris.png <- net.lutris.Lutris.png
 lyx.png <- org.lyx.LyX.png
@@ -887,6 +897,7 @@ preferences-system.png <- configuration_section.png
 preferences-system.png <- gtk-preferences.png
 preferences-system.png <- system-settings.png
 preferences-system.png <- v4l2ucp.png
+prism-launcher.png <- org.prismlauncher.PrismLauncher.png
 protonpass.png <- proton-pass.png
 protonpass.png <- ProtonPass-pass.proton.me.png
 protonvpn.png <- proton-vpn-logo.png
@@ -912,6 +923,9 @@ quodlibet.png <- io.github.quodlibet.QuodLibet.png
 rakarak.png <- steam_icon_225260.png
 rakarak.png <- tuxguitar.png
 rawtherapee.png <- com.rawtherapee.RawTherapee.png
+cockos-reaper.png <- fm.reaper.Reaper.png
+realtimesync.png <- RealTimeSync.png
+realtimesync.png <- org.freefilesync.FreeFileSync.RealTimeSync.png
 redeclipse.png <- chrome-mojepfklcankkmikonjlnidiooanmpbb-Default.png
 redeclipse.png <- net.redeclipse.RedEclipse.png
 redeclipse.png <- web-sunrise-calendar.png
@@ -1194,6 +1208,8 @@ web-google-drive.png <- google-drive.png
 web-google-drive.png <- gwoffice.png
 web-google-forms.png <- chrome-jhknlonaankphkkbnmjdlpehkinifeeg-Default.png
 web-google-fusion-tables.png <- chrome-pfoeakahkgllhkommkfeehmkfcloagkl-Default.png
+web-google-gemini.png <- Gemini-gemini.google.com.png
+web-google-gemini.png <- google-gemini.png
 web-google-gmail-offline.png <- chrome-ejidjjhkpiempkbhmpbfngldlkglhimk-Default.png
 web-google-gmail.png <- GMail-mail.google.com.png
 web-google-gmail.png <- Gmail-mail.google.com.png
@@ -1233,6 +1249,10 @@ web-google-youtube.png <- chrome-blpcfgokakmgnkcojhhkbfbldkacnbeo-Default.png
 web-google-youtube.png <- etube.com.png
 web-google-youtube.png <- krunner_youtube.com.png
 web-google-youtube.png <- unity-webapps-youtube.com.png
+web-google-youtube-music.png <- YouTubeMusic-music.youtube.com.png
+web-google-youtube-music.png <- YoutubeMusic-music.youtube.com.png
+web-google-youtube-music.png <- chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default.png
+web-google-youtube-music.png <- app.ytmdesktop.ytmdesktop.png
 web-google.png <- chrome-coobgpohoikkiipiblmjeljniedjpjpf-Default.png
 web-google.png <- goa-account-google.png
 web-google.png <- google.png
@@ -1339,6 +1359,7 @@ web-spotify.png <- chrome-cnkjkdjlofllcpbemipjbcpfnglbgieh-Default.png
 web-spotify.png <- com.spotify.Client.png
 web-spotify.png <- spotify-client.png
 web-spotify.png <- spotify-exe.png
+web-spotify.png <- spotify-launcher.png
 web-spotify.png <- spotify-linux-48x48.png
 web-spotify.png <- spotify.png
 web-teams.png <- Teams-teams.live.com.png

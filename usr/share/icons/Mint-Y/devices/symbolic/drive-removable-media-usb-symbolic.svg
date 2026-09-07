@@ -1,1 +1,65 @@
-media-removable-symbolic.svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="16px"
+   viewBox="0 0 16 16"
+   width="16px"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="xsi-media-removable-symbolic.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1050"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="26.125"
+     inkscape:cx="13.397129"
+     inkscape:cy="7.9617225"
+     inkscape:window-width="1920"
+     inkscape:window-height="988"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 4,5"
+     id="path900" />
+  <path
+     id="path898"
+     d="M 5 0 L 5 4 L 11 4 L 11 0 L 5 0 z M 4 5 C 3.4453132 5 3 5.4453132 3 6 L 3 13 C 3 14.660152 4.3398474 16 6 16 L 10 16 C 11.660152 16 13 14.660152 13 13 L 13 6 C 13 5.4453132 12.554686 5 12 5 L 4 5 z M 5 7 L 11 7 L 11 12.75 A 1 1 0 0 1 10 13.75 L 6 13.75 A 1 1 0 0 1 5 12.75 L 5 7 z " />
+  <path
+     d="m 9,1 h 1 V 2 H 9 Z"
+     id="path896" />
+  <path
+     d="M 6,1 H 7 V 2 H 6 Z"
+     id="path894" />
+</svg>
